@@ -1,53 +1,39 @@
 package BaseTest;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
+import utils.ConfigReader;
 
-import org.junit.jupiter.params.provider.ValueSource;
-import org.junit.jupiter.params.ParameterizedTest;
-
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.util.Properties;
 
 public class BaseTest {
     protected WebDriver driver;
-    private String baseURl;
+    public static String baseURl;
 
-    @BeforeEach
-    public void setup() throws IOException {
-        //this will load the baseURL.properties file (you can find it in the test/java/resources directory)
-        Properties properties = new Properties();
-        try (FileInputStream fis = new FileInputStream("src/test/resources/baseURL.properties")) {
-            properties.load(fis);
+    @BeforeMethod
+    @Parameters("browser")
+    public void setUp(String browser){
+        // this loads the properties (base URL)
+        baseURl = ConfigReader.getBaseUrl();
+
+        if (browser.equalsIgnoreCase("chrome")){
+            System.setProperty("webdriver.chrome.driver", "C:\\Users\\Christian\\IdeaProjects\\DemoBlaze\\src\\test\\resources\\Drivers\\chromedriver.exe");
+            driver = new ChromeDriver();
         }
-        //this will get the base.url from the properties file
-        baseURl = properties.getProperty("base.url");
+        else if (browser.equalsIgnoreCase("edge")){
+            System.setProperty("webdriver.edge.driver", "C:\\Users\\Christian\\IdeaProjects\\DemoBlaze\\src\\test\\resources\\Drivers\\msedgedriver.exe");
+            driver = new EdgeDriver();
+        }
+        driver.manage().window().maximize();
     }
 
-    @ParameterizedTest //used to run the test in different methods (browser)
-    @ValueSource(strings = {"chrome", "edge"})
-    public void baseDrivers(String browser){
-        if (browser.equals("chrome")){
-            WebDriverManager.chromedriver().setup();
-            driver = new ChromeDriver();
-            driver.manage().window().maximize();
+    @AfterMethod
+    public void tearDown(){
+        if (driver != null){
+            driver.quit();
         }
-        else if (browser.equals("edge")){
-            WebDriverManager.edgedriver().setup();
-            driver = new EdgeDriver();
-            driver.manage().window().maximize();
-        }
-
-        driver.get(baseURl);
-
-        // Simulate test logic here
-        System.out.println("Beginning Test on browser: " + browser);
-        System.out.println("URL: " + baseURl);
-
-        driver.quit();
     }
 }
