@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <!-- Console Appender for printing logs to the console -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss} %-5level %msg%n"/>
+        </Console>
+
+        <!-- Rolling File Appender for saving logs in a file -->
+        <RollingFile name="File" fileName="logs/test-automation.log" filePattern="logs/test-automation-%d{MM-dd-yyyy}.log">
+            <PatternLayout pattern="%d{HH:mm:ss} %-5level %msg%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <!-- Root logger for general information (INFO level) -->
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+        </Root>
+    </Loggers>
+</Configuration>
