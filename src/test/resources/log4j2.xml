@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="WARN">
     <Appenders>
-        <!-- Console Appender for printing logs to the console -->
+        <!-- Define the output targets, in this case the Console, -->
         <Console name="Console" target="SYSTEM_OUT">
             <PatternLayout pattern="%d{HH:mm:ss} %-5level %msg%n"/>
         </Console>
@@ -10,7 +10,7 @@
         <RollingFile name="File" fileName="logs/test-automation.log" filePattern="logs/test-automation-%d{MM-dd-yyyy}.log">
             <PatternLayout pattern="%d{HH:mm:ss} %-5level %msg%n"/>
             <Policies>
-                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/> <!-- Root logger for general information (INFO level) -->
             </Policies>
         </RollingFile>
     </Appenders>
