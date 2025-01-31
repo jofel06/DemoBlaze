@@ -1,25 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Configuration status="WARN">
+<Configuration status="INFO">
+    <Properties>
+        <Property name="logPath">logs</Property>
+        <Property name="logFileName">${ctx:browser}-test.log</Property>  <!--the ${ctx:browser} dynamically replaces the filename based on the browser name -->
+    </Properties>
+
     <Appenders>
-        <!-- Define the output targets, in this case the Console, -->
+        <!-- The Console Logger -->
         <Console name="Console" target="SYSTEM_OUT">
             <PatternLayout pattern="%d{HH:mm:ss} %-5level %msg%n"/>
         </Console>
 
-        <!-- Rolling File Appender for saving logs in a file -->
-        <RollingFile name="File" fileName="logs/test-automation.log" filePattern="logs/test-automation-%d{MM-dd-yyyy}.log">
-            <PatternLayout pattern="%d{HH:mm:ss} %-5level %msg%n"/>
+        <!-- The File Logger (Separate logs for each browser) -->
+        <RollingFile name="FileLogger" fileName="${logPath}/${logFileName}"
+                     filePattern="${logPath}/${ctx:browser}-test-%d{MM-dd-yyyy}.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n" />
             <Policies>
-                <TimeBasedTriggeringPolicy interval="1" modulate="true"/> <!-- Root logger for general information (INFO level) -->
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/> <!-- interval of 1, meaning log files will be created every day -->
             </Policies>
         </RollingFile>
+
     </Appenders>
 
     <Loggers>
         <!-- Root logger for general information (INFO level) -->
         <Root level="info">
             <AppenderRef ref="Console"/>
-            <AppenderRef ref="File"/>
+            <AppenderRef ref="FileLogger"/>
         </Root>
     </Loggers>
 </Configuration>

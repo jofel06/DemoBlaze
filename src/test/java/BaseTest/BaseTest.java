@@ -2,6 +2,7 @@ package BaseTest;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.ThreadContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -17,21 +18,23 @@ public class BaseTest {
     public static final Logger logger = LogManager.getLogger(BaseTest.class);
 
     @BeforeMethod
-    @Parameters("browser")
-    public void setUp(String browser){
+        @Parameters("browser")
+        public void setUp(String browser){
 
-        baseURl = ConfigReader.getBaseUrl(); //this loads the properties (base URL)
+            ThreadContext.put("browser", browser); // this sets the browser name in Log4j2 (Thread Context)
+            baseURl = ConfigReader.getBaseUrl(); //this loads the properties (base URL)
+            String driverPath = ConfigReader.getDriverPath(browser); // this gets the correct driver path from config.properties
 
-        if (browser.equalsIgnoreCase("chrome")){
-            System.setProperty("webdriver.chrome.driver", "C:\\Users\\Christian\\IdeaProjects\\DemoBlaze\\src\\test\\resources\\Drivers\\chromedriver.exe");
-            driver = new ChromeDriver();
-            logger.info("Starting test using Chrome browser");
+            if (browser.equalsIgnoreCase("chrome")){
+                System.setProperty("webdriver.chrome.driver", driverPath);
+                driver = new ChromeDriver();
+                logger.info("Starting test using Chrome browser");
 
-        }
-        else if (browser.equalsIgnoreCase("edge")){
-            System.setProperty("webdriver.edge.driver", "C:\\Users\\Christian\\IdeaProjects\\DemoBlaze\\src\\test\\resources\\Drivers\\msedgedriver.exe");
-            driver = new EdgeDriver();
-            logger.info("Starting Test using Edge browser");
+            }
+            else if (browser.equalsIgnoreCase("edge")){
+                System.setProperty("webdriver.edge.driver", driverPath);
+                driver = new EdgeDriver();
+                logger.info("Starting Test using Edge browser");
         }
         driver.manage().window().maximize();
     }
