@@ -37,7 +37,7 @@ public class ConfigReader {
         }
 
         if (driver_path == null) {
-            logger.error("Driver path for " + browser + " is not provided.");
+            logger.error("Driver path for {} is not provided.", browser);
             throw new IllegalStateException("Driver path for " + browser + " is not provided.");
         }
         return driver_path;
