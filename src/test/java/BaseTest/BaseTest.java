@@ -6,6 +6,7 @@ import org.apache.logging.log4j.ThreadContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.slf4j.MDC;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
@@ -19,8 +20,9 @@ public class BaseTest {
     @BeforeMethod
     @Parameters("browser")
     public void setUp(String browser){
-
         ThreadContext.put("browser", browser); // this sets the browser name in Log4j2 (Thread Context)
+        MDC.put("className", this.getClass().getSimpleName());  // Set test class name in MDC
+
         baseURl = ConfigReader.getBaseUrl(); //this loads the properties (base URL)
         String driverPath = ConfigReader.getDriverPath(browser); // this gets the correct driver path from config.properties
 
@@ -42,6 +44,8 @@ public class BaseTest {
         if (driver != null){
             driver.quit();
             logger.info("Browser closed");
+            MDC.remove("className");  // Remove the class name from MDC after the test
+
         }
     }
 }

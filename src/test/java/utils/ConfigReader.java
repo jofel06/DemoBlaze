@@ -28,6 +28,7 @@ public class ConfigReader {
 
     //this gets the paths of the driver in the config.properties
     public static String getDriverPath(String browser) {
+
         String driver_path = null;
 
         if (browser.equalsIgnoreCase("chrome")) {
