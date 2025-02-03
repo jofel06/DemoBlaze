@@ -1,0 +1,31 @@
+2025-02-03 15:41:51 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Christian\IdeaProjects\DemoBlaze\src\test\resources\testng.xml
+
+2025-02-03 15:41:52 [TestNG-tests-2] INFO  BaseTest.BaseTest - Starting Test using Edge browser
+2025-02-03 15:41:52 [TestNG-tests-1] INFO  BaseTest.BaseTest - Starting test using Chrome browser
+2025-02-03 15:41:52 [TestNG-tests-2] INFO  BaseTest.BaseTest - Opening the website
+2025-02-03 15:41:52 [TestNG-tests-1] INFO  BaseTest.BaseTest - Opening the website
+2025-02-03 15:41:54 [TestNG-tests-1] INFO  BaseTest.BaseTest - Navigating to the Login page
+2025-02-03 15:41:54 [TestNG-tests-2] INFO  BaseTest.BaseTest - Navigating to the Login page
+2025-02-03 15:41:54 [TestNG-tests-1] INFO  BaseTest.BaseTest - Entering username
+2025-02-03 15:41:54 [TestNG-tests-2] INFO  BaseTest.BaseTest - Entering username
+2025-02-03 15:41:54 [TestNG-tests-1] INFO  BaseTest.BaseTest - Entering password
+2025-02-03 15:41:54 [TestNG-tests-2] INFO  BaseTest.BaseTest - Entering password
+2025-02-03 15:41:54 [TestNG-tests-2] INFO  BaseTest.BaseTest - Logging in
+2025-02-03 15:41:54 [TestNG-tests-1] INFO  BaseTest.BaseTest - Logging in
+2025-02-03 15:41:55 [TestNG-tests-1] INFO  BaseTest.BaseTest - Browser closed
+2025-02-03 15:41:55 [TestNG-tests-1] INFO  BaseTest.BaseTest - Starting test using Chrome browser
+2025-02-03 15:41:55 [TestNG-tests-1] INFO  BaseTest.BaseTest - Opening the website
+2025-02-03 15:41:56 [TestNG-tests-2] INFO  BaseTest.BaseTest - Browser closed
+2025-02-03 15:41:56 [TestNG-tests-2] INFO  BaseTest.BaseTest - Starting Test using Edge browser
+2025-02-03 15:41:56 [TestNG-tests-2] INFO  BaseTest.BaseTest - Opening the website
+2025-02-03 15:41:57 [TestNG-tests-2] INFO  BaseTest.BaseTest - Navigating to the Login page
+2025-02-03 15:41:57 [TestNG-tests-1] INFO  BaseTest.BaseTest - Navigating to the Login page
+2025-02-03 15:41:58 [TestNG-tests-2] INFO  BaseTest.BaseTest - Entering username
+2025-02-03 15:41:58 [TestNG-tests-2] INFO  BaseTest.BaseTest - Entering password
+2025-02-03 15:41:58 [TestNG-tests-2] INFO  BaseTest.BaseTest - Logging in
+2025-02-03 15:41:58 [TestNG-tests-1] INFO  BaseTest.BaseTest - Entering username
+2025-02-03 15:41:58 [TestNG-tests-1] INFO  BaseTest.BaseTest - Entering password
+2025-02-03 15:41:58 [TestNG-tests-1] INFO  BaseTest.BaseTest - Logging in
+2025-02-03 15:41:58 [TestNG-tests-1] INFO  BaseTest.BaseTest - Browser closed
+2025-02-03 15:41:59 [TestNG-tests-2] INFO  BaseTest.BaseTest - Browser closed
