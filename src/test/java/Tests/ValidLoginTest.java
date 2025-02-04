@@ -11,10 +11,10 @@ import utils.LoginDataUtil;
 import java.time.Duration;
 
 
-public class LoginTest extends BaseTest {
+public class ValidLoginTest extends BaseTest {
 
     @Test(dataProvider = "loginData", dataProviderClass = LoginDataUtil.class)
-    public void test_Login(String username, String password){
+    public void loginWithValidCredentials(String username, String password){
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 

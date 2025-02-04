@@ -1,0 +1,93 @@
+2025-02-04 15:20:50  INFO  - [TestNG] Running:
+  C:\Users\Christian\IdeaProjects\DemoBlaze\src\test\resources\testng.xml
+
+2025-02-04 15:20:51 LoginTest INFO  - Starting Test using Edge browser
+2025-02-04 15:20:51 LoginTest INFO  - Starting test using Chrome browser
+2025-02-04 15:20:51 LoginTest INFO  - Opening the website
+2025-02-04 15:20:51 LoginTest INFO  - Opening the website
+2025-02-04 15:20:52 LoginTest INFO  - Navigating to the Login page
+2025-02-04 15:20:52 LoginTest INFO  - Navigating to the Login page
+2025-02-04 15:20:53 LoginTest INFO  - Entering username
+2025-02-04 15:20:53 LoginTest INFO  - Entering password
+2025-02-04 15:20:53 LoginTest INFO  - Entering username
+2025-02-04 15:20:53 LoginTest INFO  - Logging in
+2025-02-04 15:20:53 LoginTest INFO  - Entering password
+2025-02-04 15:20:53 LoginTest INFO  - Logging in
+2025-02-04 15:20:53 LoginTest INFO  - Browser closed
+2025-02-04 15:20:54 LoginTest INFO  - Starting test using Chrome browser
+2025-02-04 15:20:54 LoginTest INFO  - Opening the website
+2025-02-04 15:20:54 LoginTest INFO  - Browser closed
+2025-02-04 15:20:55 LoginTest INFO  - Navigating to the Login page
+2025-02-04 15:20:55 LoginTest INFO  - Starting Test using Edge browser
+2025-02-04 15:20:55 LoginTest INFO  - Opening the website
+2025-02-04 15:20:55 LoginTest INFO  - Entering username
+2025-02-04 15:20:55 LoginTest INFO  - Entering password
+2025-02-04 15:20:55 LoginTest INFO  - Logging in
+2025-02-04 15:20:56 LoginTest INFO  - Browser closed
+2025-02-04 15:20:56 LoginTest INFO  - Navigating to the Login page
+2025-02-04 15:20:57 LoginTest INFO  - Entering username
+2025-02-04 15:20:57 LoginTest INFO  - Entering password
+2025-02-04 15:20:57 LoginTest INFO  - Logging in
+2025-02-04 15:20:58 LoginTest INFO  - Browser closed
+2025-02-04 15:22:56  INFO  - [TestNG] Running:
+  C:\Users\Christian\IdeaProjects\DemoBlaze\src\test\resources\testng.xml
+
+2025-02-04 15:22:57 LoginTest INFO  - Starting Test using Edge browser
+2025-02-04 15:22:57 LoginTest INFO  - Starting test using Chrome browser
+2025-02-04 15:22:57 LoginTest INFO  - Opening the website
+2025-02-04 15:22:57 LoginTest INFO  - Opening the website
+2025-02-04 15:22:58 LoginTest INFO  - Navigating to the Login page
+2025-02-04 15:22:59 LoginTest INFO  - Navigating to the Login page
+2025-02-04 15:22:59 LoginTest INFO  - Entering username
+2025-02-04 15:22:59 LoginTest INFO  - Entering password
+2025-02-04 15:22:59 LoginTest INFO  - Logging in
+2025-02-04 15:22:59 LoginTest INFO  - Entering username
+2025-02-04 15:22:59 LoginTest INFO  - Entering password
+2025-02-04 15:22:59 LoginTest INFO  - Logging in
+2025-02-04 15:23:00 LoginTest INFO  - Browser closed
+2025-02-04 15:23:00 LoginTest INFO  - Starting test using Chrome browser
+2025-02-04 15:23:00 LoginTest INFO  - Opening the website
+2025-02-04 15:23:00 LoginTest INFO  - Browser closed
+2025-02-04 15:23:01 LoginTest INFO  - Starting Test using Edge browser
+2025-02-04 15:23:01 LoginTest INFO  - Opening the website
+2025-02-04 15:23:01 LoginTest INFO  - Navigating to the Login page
+2025-02-04 15:23:02 LoginTest INFO  - Entering username
+2025-02-04 15:23:02 LoginTest INFO  - Navigating to the Login page
+2025-02-04 15:23:02 LoginTest INFO  - Entering password
+2025-02-04 15:23:02 LoginTest INFO  - Logging in
+2025-02-04 15:23:02 LoginTest INFO  - Browser closed
+2025-02-04 15:23:03 LoginTest INFO  - Entering username
+2025-02-04 15:23:03 LoginTest INFO  - Entering password
+2025-02-04 15:23:03 LoginTest INFO  - Logging in
+2025-02-04 15:23:04 LoginTest INFO  - Browser closed
+2025-02-04 15:25:10  INFO  - [TestNG] Running:
+  C:\Users\Christian\IdeaProjects\DemoBlaze\src\test\resources\testng.xml
+
+2025-02-04 15:25:11 LoginTest INFO  - Starting test using Chrome browser
+2025-02-04 15:25:11 LoginTest INFO  - Starting Test using Edge browser
+2025-02-04 15:25:11 LoginTest INFO  - Opening the website
+2025-02-04 15:25:11 LoginTest INFO  - Opening the website
+2025-02-04 15:25:12 LoginTest INFO  - Navigating to the Login page
+2025-02-04 15:25:12 LoginTest INFO  - Navigating to the Login page
+2025-02-04 15:25:13 LoginTest INFO  - Entering username
+2025-02-04 15:25:13 LoginTest INFO  - Entering username
+2025-02-04 15:25:13 LoginTest INFO  - Entering password
+2025-02-04 15:25:13 LoginTest INFO  - Entering password
+2025-02-04 15:25:13 LoginTest INFO  - Logging in
+2025-02-04 15:25:13 LoginTest INFO  - Logging in
+2025-02-04 15:25:14 LoginTest INFO  - Browser closed
+2025-02-04 15:25:14 LoginTest INFO  - Starting test using Chrome browser
+2025-02-04 15:25:14 LoginTest INFO  - Opening the website
+2025-02-04 15:25:15 LoginTest INFO  - Browser closed
+2025-02-04 15:25:15 LoginTest INFO  - Navigating to the Login page
+2025-02-04 15:25:15 LoginTest INFO  - Starting Test using Edge browser
+2025-02-04 15:25:15 LoginTest INFO  - Opening the website
+2025-02-04 15:25:16 LoginTest INFO  - Entering username
+2025-02-04 15:25:16 LoginTest INFO  - Entering password
+2025-02-04 15:25:16 LoginTest INFO  - Logging in
+2025-02-04 15:25:16 LoginTest INFO  - Browser closed
+2025-02-04 15:25:16 LoginTest INFO  - Navigating to the Login page
+2025-02-04 15:25:17 LoginTest INFO  - Entering username
+2025-02-04 15:25:17 LoginTest INFO  - Entering password
+2025-02-04 15:25:17 LoginTest INFO  - Logging in
+2025-02-04 15:25:18 LoginTest INFO  - Browser closed
