@@ -54,7 +54,10 @@ public class LoginPage extends BasePage{
         click(loginCloseIcon);
     }
 
-
+    public void clickLoginButtonAndAcceptAlert(){
+        click(loginButton);
+        acceptAlert();
+    }
 }
 
 

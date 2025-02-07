@@ -18,7 +18,8 @@ public class InvalidLoginTest extends BaseTest {
             logger.info("Entering an invalid password");
             loginPage.enterPassword(password);
             logger.info("Clicking the Login button");
-            loginPage.clickLoginButton();
+            loginPage.clickLoginButtonAndAcceptAlert();
+            logger.info("Login Failed, please enter a valid username or password");
         }
         catch (Exception e){
             logger.error("Login was not successful due to an error:", e);
