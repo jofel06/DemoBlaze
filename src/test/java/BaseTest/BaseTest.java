@@ -3,9 +3,11 @@ package BaseTest;
 import Page_Objects.LoginPage;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.ThreadContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
@@ -19,7 +21,9 @@ public class BaseTest {
 
     @BeforeMethod
     @Parameters("browser")
-    public void setUp(String browser){
+    public void setUp(String browser, ITestResult result){
+        String testName = result.getMethod().getMethodName();
+        ThreadContext.put("TestName", testName); // this stores the test name in MDC
 
         baseURl = ConfigReader.getBaseUrl(); //this loads the properties (base URL)
         String driverPath = ConfigReader.getDriverPath(browser); // this gets the correct driver path from config.properties
@@ -27,12 +31,12 @@ public class BaseTest {
         if (browser.equalsIgnoreCase("chrome")){
             System.setProperty("webdriver.chrome.driver", driverPath);
             driver = new ChromeDriver();
-            logger.info("Starting test using Chrome browser");
+            logger.info("Starting test using Chrome browser" + testName);
             }
         else if (browser.equalsIgnoreCase("edge")){
             System.setProperty("webdriver.edge.driver", driverPath);
             driver = new EdgeDriver();
-            logger.info("Starting Test using Edge browser");
+            logger.info("Starting Test using Edge browser" + testName);
             }
         driver.manage().window().maximize();
         loginPage = new LoginPage(driver);
@@ -47,8 +51,8 @@ public class BaseTest {
     public void tearDown(){
         if (driver != null){
             driver.quit();
-            logger.info("Browser closed");
-
+            ThreadContext.remove("TestName");
+            logger.info("Browser closed ");
         }
     }
 }

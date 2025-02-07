@@ -9,10 +9,10 @@ import java.util.Iterator;
 import java.io.File;
 
 public class LoginDataUtil {
-    @DataProvider(name = "loginData")
-    public static Object[][] getLoginData() throws IOException {
+
+    public static Object[][] getDataFromJson(String filePath) throws IOException {
         ObjectMapper mapper = new ObjectMapper();
-        JsonNode root = mapper.readTree(new File("C:\\Users\\Christian\\IdeaProjects\\DemoBlaze\\src\\test\\resources\\Test_Data\\login_data.json"));
+        JsonNode root = mapper.readTree(new File(filePath));
         Iterator<JsonNode> elements = root.elements();
 
         //Count the number of elements
@@ -33,5 +33,15 @@ public class LoginDataUtil {
         }
 
         return loginData;
+    }
+
+    @DataProvider(name = "validLoginData")
+    public static Object[][] getValidLoginData() throws IOException {
+        return getDataFromJson("C:\\Users\\Christian\\IdeaProjects\\DemoBlaze\\src\\test\\resources\\Test_Data\\validLoginCredentials.json");
+    }
+
+    @DataProvider(name = "invalidLoginData")
+    public static Object[][] getInvalidLoginData() throws IOException {
+        return getDataFromJson("C:\\Users\\Christian\\IdeaProjects\\DemoBlaze\\src\\test\\resources\\Test_Data\\invalidLoginCredentials.json");
     }
 }

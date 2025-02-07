@@ -1,0 +1,63 @@
+2025-02-07 15:23:44 [main] []  INFO  - [TestNG] Running:
+  C:\Users\Christian\IdeaProjects\DemoBlaze\src\test\resources\testng.xml
+
+2025-02-07 15:23:45 [TestNG-tests-2] []  INFO  - Starting Test using Edge browserloginWithValidCredentials
+2025-02-07 15:23:45 [TestNG-tests-1] []  INFO  - Starting test using Chrome browserloginWithValidCredentials
+2025-02-07 15:23:45 [TestNG-tests-1] []  INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-07 15:23:45 [TestNG-tests-2] []  INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-07 15:23:45 [TestNG-tests-2] []  INFO  - Navigating to the Login page
+2025-02-07 15:23:46 [TestNG-tests-2] []  INFO  - Entering a valid username
+2025-02-07 15:23:46 [TestNG-tests-1] []  INFO  - Navigating to the Login page
+2025-02-07 15:23:46 [TestNG-tests-1] []  INFO  - Entering a valid username
+2025-02-07 15:23:46 [TestNG-tests-2] []  INFO  - Entering a valid password
+2025-02-07 15:23:46 [TestNG-tests-1] []  INFO  - Entering a valid password
+2025-02-07 15:23:46 [TestNG-tests-2] []  INFO  - Clicking the Login button
+2025-02-07 15:23:47 [TestNG-tests-1] []  INFO  - Clicking the Login button
+2025-02-07 15:23:47 [TestNG-tests-2] []  INFO  - Login Successful
+2025-02-07 15:23:47 [TestNG-tests-1] []  INFO  - Login Successful
+2025-02-07 15:23:47 [TestNG-tests-1] []  INFO  - Browser closed 
+2025-02-07 15:23:47 [TestNG-tests-1] []  INFO  - Starting test using Chrome browserloginWithValidCredentials
+2025-02-07 15:23:47 [TestNG-tests-1] []  INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-07 15:23:48 [TestNG-tests-1] []  INFO  - Navigating to the Login page
+2025-02-07 15:23:48 [TestNG-tests-2] []  INFO  - Browser closed 
+2025-02-07 15:23:48 [TestNG-tests-1] []  INFO  - Entering a valid username
+2025-02-07 15:23:49 [TestNG-tests-1] []  INFO  - Entering a valid password
+2025-02-07 15:23:49 [TestNG-tests-2] []  INFO  - Starting Test using Edge browserloginWithValidCredentials
+2025-02-07 15:23:49 [TestNG-tests-2] []  INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-07 15:23:49 [TestNG-tests-1] []  INFO  - Clicking the Login button
+2025-02-07 15:23:49 [TestNG-tests-1] []  INFO  - Login Successful
+2025-02-07 15:23:49 [TestNG-tests-1] []  INFO  - Browser closed 
+2025-02-07 15:23:50 [TestNG-tests-2] []  INFO  - Navigating to the Login page
+2025-02-07 15:23:50 [TestNG-tests-2] []  INFO  - Entering a valid username
+2025-02-07 15:23:50 [TestNG-tests-1] []  INFO  - Starting test using Chrome browserloginWithInvalidCredentials
+2025-02-07 15:23:50 [TestNG-tests-1] []  INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-07 15:23:50 [TestNG-tests-2] []  INFO  - Entering a valid password
+2025-02-07 15:23:51 [TestNG-tests-2] []  INFO  - Clicking the Login button
+2025-02-07 15:23:51 [TestNG-tests-1] []  INFO  - Navigating to the Login page
+2025-02-07 15:23:51 [TestNG-tests-2] []  INFO  - Login Successful
+2025-02-07 15:23:51 [TestNG-tests-1] []  INFO  - Entering an invalid username
+2025-02-07 15:23:51 [TestNG-tests-1] []  INFO  - Entering an invalid password
+2025-02-07 15:23:52 [TestNG-tests-1] []  INFO  - Clicking the Login button
+2025-02-07 15:23:52 [TestNG-tests-1] []  INFO  - Browser closed 
+2025-02-07 15:23:52 [TestNG-tests-2] []  INFO  - Browser closed 
+2025-02-07 15:23:52 [TestNG-tests-1] []  INFO  - Starting test using Chrome browserloginWithInvalidCredentials
+2025-02-07 15:23:53 [TestNG-tests-1] []  INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-07 15:23:53 [TestNG-tests-2] []  INFO  - Starting Test using Edge browserloginWithInvalidCredentials
+2025-02-07 15:23:53 [TestNG-tests-2] []  INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-07 15:23:53 [TestNG-tests-1] []  INFO  - Navigating to the Login page
+2025-02-07 15:23:54 [TestNG-tests-1] []  INFO  - Entering an invalid username
+2025-02-07 15:23:54 [TestNG-tests-2] []  INFO  - Navigating to the Login page
+2025-02-07 15:23:54 [TestNG-tests-2] []  INFO  - Entering an invalid username
+2025-02-07 15:23:54 [TestNG-tests-1] []  INFO  - Entering an invalid password
+2025-02-07 15:23:54 [TestNG-tests-1] []  INFO  - Clicking the Login button
+2025-02-07 15:23:54 [TestNG-tests-2] []  INFO  - Entering an invalid password
+2025-02-07 15:23:55 [TestNG-tests-2] []  INFO  - Clicking the Login button
+2025-02-07 15:23:55 [TestNG-tests-1] []  INFO  - Browser closed 
+2025-02-07 15:23:56 [TestNG-tests-2] []  INFO  - Browser closed 
+2025-02-07 15:23:57 [TestNG-tests-2] []  INFO  - Starting Test using Edge browserloginWithInvalidCredentials
+2025-02-07 15:23:57 [TestNG-tests-2] []  INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-07 15:23:57 [TestNG-tests-2] []  INFO  - Navigating to the Login page
+2025-02-07 15:23:57 [TestNG-tests-2] []  INFO  - Entering an invalid username
+2025-02-07 15:23:58 [TestNG-tests-2] []  INFO  - Entering an invalid password
+2025-02-07 15:23:58 [TestNG-tests-2] []  INFO  - Clicking the Login button
+2025-02-07 15:24:00 [TestNG-tests-2] []  INFO  - Browser closed 
