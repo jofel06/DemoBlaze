@@ -4,13 +4,13 @@
     <Appenders>
         <!-- Console Appender-->
         <Console name="Console" target="SYSTEM_OUT">
-            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] [%X{testName}] %-5level - %msg%n"/>
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level - %msg%n"/>
         </Console>
 
         <!-- File Appender -->
         <RollingFile name="FileLogger" fileName="logs/Test_Automation_${date:yyyy-MM-dd}.log"
                      filePattern="logs/Previous_Test_%d{yyyy-MM-dd}.log"> <!--defines the naming convention for the archived log files after rotation.-->
-            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] [%X{testName}]  %-5level - %msg%n"/>
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level - %msg%n"/>
             <Policies>
                 <TimeBasedTriggeringPolicy interval="1" modulate="true"/> <!-- interval of 1, meaning log files will be created every day -->
             </Policies>

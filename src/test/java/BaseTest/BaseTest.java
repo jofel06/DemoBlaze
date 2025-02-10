@@ -25,9 +25,12 @@ public class BaseTest {
     @Parameters("browser")
     public void setUp(String browser, ITestResult result){
 
-
         String testName = result.getMethod().getMethodName();
-        ThreadContext.put("testName", testName); // this stores the test name in MDC
+        String threadName = browser.toUpperCase() + "-" + testName + "-" + Thread.currentThread().getId();
+
+        ThreadContext.put("testName", testName); // Store test name in MDC
+        ThreadContext.put("threadName", threadName); // Store custom thread name in MDC
+        Thread.currentThread().setName(threadName); // Override actual thread name
 
         baseURl = ConfigReader.getBaseUrl(); //this loads the properties (base URL)
         String driverPath = ConfigReader.getDriverPath(browser); // this gets the correct driver path from config.properties
