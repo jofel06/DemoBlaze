@@ -25,6 +25,7 @@ public class LoginPage extends BasePage{
     @FindBy(xpath = "(//div[@class='modal-header']/button[@class='close'])[2]")
     private WebElement loginCloseIcon;
 
+
     public LoginPage(WebDriver driver) {
         super(driver);
         PageFactory.initElements(driver, this); //this initializes the WebElement fields in this class by using the WebDriver to locate them on the page, the @FindBy.

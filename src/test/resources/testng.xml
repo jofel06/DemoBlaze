@@ -5,6 +5,7 @@
         <classes>
             <class name="Tests.ValidLoginTest"/>
             <class name="Tests.InvalidLoginTest"/>
+            <class name="Tests.ProductAddToCartTest"/>
         </classes>
     </test>
     <test name="Edge Test">
@@ -12,6 +13,7 @@
         <classes>
             <class name="Tests.ValidLoginTest"/>
             <class name="Tests.InvalidLoginTest"/>
+            <class name="Tests.ProductAddToCartTest"/>
         </classes>
     </test>
 </suite>

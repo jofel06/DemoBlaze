@@ -1,0 +1,93 @@
+2025-02-10 15:49:08 [main] []  INFO  - [TestNG] Running:
+  C:\Users\Christian\IdeaProjects\DemoBlaze\src\test\resources\testng.xml
+
+2025-02-10 15:49:09 [TestNG-tests-1] [loginWithValidCredentials]  INFO  - Starting test using Chrome browser for Test: loginWithValidCredentials
+2025-02-10 15:49:09 [TestNG-tests-2] [loginWithValidCredentials]  INFO  - Starting Test using Edge browser for Test: loginWithValidCredentials
+2025-02-10 15:49:09 [TestNG-tests-1] [loginWithValidCredentials]  INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-10 15:49:09 [TestNG-tests-2] [loginWithValidCredentials]  INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-10 15:49:10 [TestNG-tests-2] [loginWithValidCredentials]  INFO  - Navigating to the Login page
+2025-02-10 15:49:10 [TestNG-tests-1] [loginWithValidCredentials]  INFO  - Navigating to the Login page
+2025-02-10 15:49:10 [TestNG-tests-2] [loginWithValidCredentials]  INFO  - Entering a valid username
+2025-02-10 15:49:10 [TestNG-tests-1] [loginWithValidCredentials]  INFO  - Entering a valid username
+2025-02-10 15:49:11 [TestNG-tests-2] [loginWithValidCredentials]  INFO  - Entering a valid password
+2025-02-10 15:49:11 [TestNG-tests-1] [loginWithValidCredentials]  INFO  - Entering a valid password
+2025-02-10 15:49:11 [TestNG-tests-2] [loginWithValidCredentials]  INFO  - Clicking the Login button
+2025-02-10 15:49:11 [TestNG-tests-1] [loginWithValidCredentials]  INFO  - Clicking the Login button
+2025-02-10 15:49:11 [TestNG-tests-2] [loginWithValidCredentials]  INFO  - Login Successful
+2025-02-10 15:49:11 [TestNG-tests-1] [loginWithValidCredentials]  INFO  - Login Successful
+2025-02-10 15:49:11 [TestNG-tests-1] [loginWithValidCredentials]  INFO  - Browser closed 
+2025-02-10 15:49:12 [TestNG-tests-1] [loginWithValidCredentials]  INFO  - Starting test using Chrome browser for Test: loginWithValidCredentials
+2025-02-10 15:49:12 [TestNG-tests-1] [loginWithValidCredentials]  INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-10 15:49:12 [TestNG-tests-2] [loginWithValidCredentials]  INFO  - Browser closed 
+2025-02-10 15:49:13 [TestNG-tests-1] [loginWithValidCredentials]  INFO  - Navigating to the Login page
+2025-02-10 15:49:13 [TestNG-tests-1] [loginWithValidCredentials]  INFO  - Entering a valid username
+2025-02-10 15:49:13 [TestNG-tests-2] [loginWithValidCredentials]  INFO  - Starting Test using Edge browser for Test: loginWithValidCredentials
+2025-02-10 15:49:13 [TestNG-tests-2] [loginWithValidCredentials]  INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-10 15:49:14 [TestNG-tests-1] [loginWithValidCredentials]  INFO  - Entering a valid password
+2025-02-10 15:49:14 [TestNG-tests-2] [loginWithValidCredentials]  INFO  - Navigating to the Login page
+2025-02-10 15:49:14 [TestNG-tests-1] [loginWithValidCredentials]  INFO  - Clicking the Login button
+2025-02-10 15:49:14 [TestNG-tests-1] [loginWithValidCredentials]  INFO  - Login Successful
+2025-02-10 15:49:14 [TestNG-tests-2] [loginWithValidCredentials]  INFO  - Entering a valid username
+2025-02-10 15:49:14 [TestNG-tests-1] [loginWithValidCredentials]  INFO  - Browser closed 
+2025-02-10 15:49:15 [TestNG-tests-2] [loginWithValidCredentials]  INFO  - Entering a valid password
+2025-02-10 15:49:15 [TestNG-tests-1] [loginWithInvalidCredentials]  INFO  - Starting test using Chrome browser for Test: loginWithInvalidCredentials
+2025-02-10 15:49:15 [TestNG-tests-1] [loginWithInvalidCredentials]  INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-10 15:49:15 [TestNG-tests-2] [loginWithValidCredentials]  INFO  - Clicking the Login button
+2025-02-10 15:49:15 [TestNG-tests-2] [loginWithValidCredentials]  INFO  - Login Successful
+2025-02-10 15:49:15 [TestNG-tests-1] [loginWithInvalidCredentials]  INFO  - Navigating to the Login page
+2025-02-10 15:49:16 [TestNG-tests-1] [loginWithInvalidCredentials]  INFO  - Entering an invalid username
+2025-02-10 15:49:16 [TestNG-tests-2] [loginWithValidCredentials]  INFO  - Browser closed 
+2025-02-10 15:49:16 [TestNG-tests-1] [loginWithInvalidCredentials]  INFO  - Entering an invalid password
+2025-02-10 15:49:16 [TestNG-tests-1] [loginWithInvalidCredentials]  INFO  - Clicking the Login button
+2025-02-10 15:49:17 [TestNG-tests-1] [loginWithInvalidCredentials]  INFO  - Login Failed, please enter a valid username or password
+2025-02-10 15:49:17 [TestNG-tests-2] [loginWithInvalidCredentials]  INFO  - Starting Test using Edge browser for Test: loginWithInvalidCredentials
+2025-02-10 15:49:17 [TestNG-tests-2] [loginWithInvalidCredentials]  INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-10 15:49:17 [TestNG-tests-1] [loginWithInvalidCredentials]  INFO  - Browser closed 
+2025-02-10 15:49:18 [TestNG-tests-2] [loginWithInvalidCredentials]  INFO  - Navigating to the Login page
+2025-02-10 15:49:18 [TestNG-tests-2] [loginWithInvalidCredentials]  INFO  - Entering an invalid username
+2025-02-10 15:49:18 [TestNG-tests-1] [loginWithInvalidCredentials]  INFO  - Starting test using Chrome browser for Test: loginWithInvalidCredentials
+2025-02-10 15:49:18 [TestNG-tests-1] [loginWithInvalidCredentials]  INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-10 15:49:18 [TestNG-tests-2] [loginWithInvalidCredentials]  INFO  - Entering an invalid password
+2025-02-10 15:49:18 [TestNG-tests-2] [loginWithInvalidCredentials]  INFO  - Clicking the Login button
+2025-02-10 15:49:19 [TestNG-tests-1] [loginWithInvalidCredentials]  INFO  - Navigating to the Login page
+2025-02-10 15:49:19 [TestNG-tests-1] [loginWithInvalidCredentials]  INFO  - Entering an invalid username
+2025-02-10 15:49:19 [TestNG-tests-2] [loginWithInvalidCredentials]  INFO  - Login Failed, please enter a valid username or password
+2025-02-10 15:49:19 [TestNG-tests-1] [loginWithInvalidCredentials]  INFO  - Entering an invalid password
+2025-02-10 15:49:19 [TestNG-tests-1] [loginWithInvalidCredentials]  INFO  - Clicking the Login button
+2025-02-10 15:49:20 [TestNG-tests-1] [loginWithInvalidCredentials]  INFO  - Login Failed, please enter a valid username or password
+2025-02-10 15:49:20 [TestNG-tests-1] [loginWithInvalidCredentials]  INFO  - Browser closed 
+2025-02-10 15:49:20 [TestNG-tests-2] [loginWithInvalidCredentials]  INFO  - Browser closed 
+2025-02-10 15:49:21 [TestNG-tests-1] [AddToCartWithoutLoginTest]  INFO  - Starting test using Chrome browser for Test: AddToCartWithoutLoginTest
+2025-02-10 15:49:21 [TestNG-tests-1] [AddToCartWithoutLoginTest]  INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-10 15:49:21 [TestNG-tests-2] [loginWithInvalidCredentials]  INFO  - Starting Test using Edge browser for Test: loginWithInvalidCredentials
+2025-02-10 15:49:21 [TestNG-tests-2] [loginWithInvalidCredentials]  INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-10 15:49:22 [TestNG-tests-1] [AddToCartWithoutLoginTest]  INFO  - Navigating to Cart Page
+2025-02-10 15:49:22 [TestNG-tests-1] [AddToCartWithoutLoginTest]  INFO  - Placing the Order
+2025-02-10 15:49:22 [TestNG-tests-2] [loginWithInvalidCredentials]  INFO  - Navigating to the Login page
+2025-02-10 15:49:22 [TestNG-tests-1] [AddToCartWithoutLoginTest]  INFO  - Entering the Name
+2025-02-10 15:49:23 [TestNG-tests-2] [loginWithInvalidCredentials]  INFO  - Entering an invalid username
+2025-02-10 15:49:23 [TestNG-tests-1] [AddToCartWithoutLoginTest]  INFO  - Entering the Country
+2025-02-10 15:49:23 [TestNG-tests-1] [AddToCartWithoutLoginTest]  INFO  - Entering the City
+2025-02-10 15:49:23 [TestNG-tests-2] [loginWithInvalidCredentials]  INFO  - Entering an invalid password
+2025-02-10 15:49:23 [TestNG-tests-1] [AddToCartWithoutLoginTest]  INFO  - Entering the Credit Card Information
+2025-02-10 15:49:23 [TestNG-tests-2] [loginWithInvalidCredentials]  INFO  - Clicking the Login button
+2025-02-10 15:49:23 [TestNG-tests-1] [AddToCartWithoutLoginTest]  INFO  - Entering the Month
+2025-02-10 15:49:23 [TestNG-tests-1] [AddToCartWithoutLoginTest]  INFO  - Entering the Year
+2025-02-10 15:49:23 [TestNG-tests-1] [AddToCartWithoutLoginTest]  INFO  - Clicking the Purchase Button
+2025-02-10 15:49:24 [TestNG-tests-1] [AddToCartWithoutLoginTest]  INFO  - Purchase Completed
+2025-02-10 15:49:24 [TestNG-tests-1] [AddToCartWithoutLoginTest]  INFO  - Browser closed 
+2025-02-10 15:49:24 [TestNG-tests-2] [loginWithInvalidCredentials]  INFO  - Login Failed, please enter a valid username or password
+2025-02-10 15:49:25 [TestNG-tests-2] [loginWithInvalidCredentials]  INFO  - Browser closed 
+2025-02-10 15:49:26 [TestNG-tests-2] [AddToCartWithoutLoginTest]  INFO  - Starting Test using Edge browser for Test: AddToCartWithoutLoginTest
+2025-02-10 15:49:26 [TestNG-tests-2] [AddToCartWithoutLoginTest]  INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-10 15:49:27 [TestNG-tests-2] [AddToCartWithoutLoginTest]  INFO  - Navigating to Cart Page
+2025-02-10 15:49:27 [TestNG-tests-2] [AddToCartWithoutLoginTest]  INFO  - Placing the Order
+2025-02-10 15:49:27 [TestNG-tests-2] [AddToCartWithoutLoginTest]  INFO  - Entering the Name
+2025-02-10 15:49:28 [TestNG-tests-2] [AddToCartWithoutLoginTest]  INFO  - Entering the Country
+2025-02-10 15:49:28 [TestNG-tests-2] [AddToCartWithoutLoginTest]  INFO  - Entering the City
+2025-02-10 15:49:28 [TestNG-tests-2] [AddToCartWithoutLoginTest]  INFO  - Entering the Credit Card Information
+2025-02-10 15:49:28 [TestNG-tests-2] [AddToCartWithoutLoginTest]  INFO  - Entering the Month
+2025-02-10 15:49:28 [TestNG-tests-2] [AddToCartWithoutLoginTest]  INFO  - Entering the Year
+2025-02-10 15:49:28 [TestNG-tests-2] [AddToCartWithoutLoginTest]  INFO  - Clicking the Purchase Button
+2025-02-10 15:49:28 [TestNG-tests-2] [AddToCartWithoutLoginTest]  INFO  - Purchase Completed
+2025-02-10 15:49:30 [TestNG-tests-2] [AddToCartWithoutLoginTest]  INFO  - Browser closed 

@@ -1,5 +1,6 @@
 package BaseTest;
 
+import Page_Objects.AddToCartPage;
 import Page_Objects.LoginPage;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -18,6 +19,7 @@ public class BaseTest {
     protected static String baseURl;
     public static final Logger logger = LogManager.getLogger(BaseTest.class);
     protected LoginPage loginPage;
+    protected AddToCartPage addToCartPage;
 
     @BeforeMethod
     @Parameters("browser")
@@ -42,6 +44,7 @@ public class BaseTest {
             }
         driver.manage().window().maximize();
         loginPage = new LoginPage(driver);
+        addToCartPage = new AddToCartPage(driver);
 
         // Add the step to navigate to the base URL after initializing the driver
         logger.info("Navigating to base URL: " + baseURl);
