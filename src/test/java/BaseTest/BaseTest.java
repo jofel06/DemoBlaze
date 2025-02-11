@@ -2,6 +2,7 @@ package BaseTest;
 
 import Page_Objects.AddToCartPage;
 import Page_Objects.LoginPage;
+import Page_Objects.ProductsPage;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.ThreadContext;
@@ -20,6 +21,7 @@ public class BaseTest {
     public static final Logger logger = LogManager.getLogger(BaseTest.class);
     protected LoginPage loginPage;
     protected AddToCartPage addToCartPage;
+    public ProductsPage productsPage;
 
     @BeforeMethod
     @Parameters("browser")
@@ -46,10 +48,13 @@ public class BaseTest {
             logger.info("Starting Test using Edge browser for Test: " + testName);
             }
         driver.manage().window().maximize();
+
+
         loginPage = new LoginPage(driver);
         addToCartPage = new AddToCartPage(driver);
+        productsPage = new ProductsPage(driver);
 
-        // Add the step to navigate to the base URL after initializing the driver
+
         logger.info("Navigating to base URL: " + baseURl);
         driver.get(baseURl);  // This will open the URL in the browser
 

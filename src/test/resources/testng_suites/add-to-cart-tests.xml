@@ -3,13 +3,15 @@
     <test name="Add to Cart Tests- Chrome">
         <parameter name="browser" value="chrome" />
         <classes>
-            <class name="Tests.ProductAddToCartTest"/>
+            <class name="Tests.CartPageWithoutAccountTest"/>
+            <class name="Tests.ProductAddToCartWithAccountTest"/>
         </classes>
     </test>
     <test name="Add to Cart Tests- Edge">
         <parameter name="browser" value="edge" />
         <classes>
-            <class name="Tests.ProductAddToCartTest"/>
+            <class name="Tests.CartPageWithoutAccountTest"/>
+            <class name="Tests.ProductAddToCartWithAccountTest"/>
         </classes>
     </test>
 </suite>

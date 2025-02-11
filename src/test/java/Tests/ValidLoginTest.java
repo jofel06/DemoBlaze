@@ -8,7 +8,7 @@ import utils.LoginDataUtil;
 public class ValidLoginTest extends BaseTest {
 
     @Test(dataProvider = "validLoginData", dataProviderClass = LoginDataUtil.class)
-    public void loginWithValidCredentials(String username, String password){
+    public void testLoginWithValidCredentials(String username, String password){
 
         try {
             logger.info("Navigating to the Login page");

@@ -4,10 +4,10 @@ import BaseTest.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class ProductAddToCartTest extends BaseTest {
+public class CartPageWithoutAccountTest extends BaseTest {
 
     @Test
-    public void AddToCartWithoutLoginTest(){
+    public void testCartPageWithoutAccount(){
 
         try {
             logger.info("Navigating to Cart Page");
