@@ -4,6 +4,7 @@ import BaseTest.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import utils.LoginDataUtil;
+import utils.ScreenshotUtil;
 
 public class InvalidLoginTest extends BaseTest {
 
@@ -22,6 +23,7 @@ public class InvalidLoginTest extends BaseTest {
             logger.info("Login Failed, please enter a valid username or password");
         }
         catch (Exception e){
+            ScreenshotUtil.captureScreenshot(driver, "testLoginWithInvalidCredentials_Error");
             logger.error("Login was not successful due to an error:", e);
             Assert.fail("Test failed due to an exception: " + e.getMessage());
         }

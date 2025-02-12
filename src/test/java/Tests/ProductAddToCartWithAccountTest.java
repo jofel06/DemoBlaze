@@ -4,6 +4,7 @@ import BaseTest.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import utils.LoginDataUtil;
+import utils.ScreenshotUtil;
 
 public class ProductAddToCartWithAccountTest extends BaseTest {
 
@@ -40,6 +41,7 @@ public class ProductAddToCartWithAccountTest extends BaseTest {
             addToCartPage.clickCartLink();
         }
         catch (Exception e){
+            ScreenshotUtil.captureScreenshot(driver, "testAddToCartWithValidAccount_Error");
             logger.error("Add to Cart test was not successful due to an error:", e);
             Assert.fail("Test failed due to an exception: " + e.getMessage());
         }

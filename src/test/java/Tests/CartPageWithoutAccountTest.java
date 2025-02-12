@@ -3,6 +3,7 @@ package Tests;
 import BaseTest.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import utils.ScreenshotUtil;
 
 public class CartPageWithoutAccountTest extends BaseTest {
 
@@ -32,6 +33,7 @@ public class CartPageWithoutAccountTest extends BaseTest {
             addToCartPage.clickCartPurchaseConfirmationBtn();
         }
         catch (Exception e){
+            ScreenshotUtil.captureScreenshot(driver, "testCartPageWithoutAccount_Error");
             logger.error("Add to Cart Test failed due to an error:", e);
             Assert.fail("Test failed due to an exception: " + e.getMessage());
         }
