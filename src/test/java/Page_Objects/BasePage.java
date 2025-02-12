@@ -19,11 +19,11 @@ public class BasePage {
 
     protected void waitForElement(WebElement element){
         wait.until(ExpectedConditions.visibilityOf(element));
-
-
     }
 
+    //this is in case of stale element that usually occurred in some buttons/links in the webpage
     protected void click(WebElement element){
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.elementToBeClickable(element));
         element.click();
     }
@@ -39,9 +39,24 @@ public class BasePage {
         return element.getText();
     }
 
-    protected void acceptAlert(){
-        wait.until(ExpectedConditions.alertIsPresent());
-        Alert alert = driver.switchTo().alert();
-        alert.accept();
+    protected void acceptAlert() {
+        try {
+            wait.until(ExpectedConditions.alertIsPresent());
+            Alert alert = driver.switchTo().alert();
+            alert.accept();
+        } catch (Exception e) {
+            throw new RuntimeException("No alert present to accept.");
+        }
+    }
+
+    protected void closeAlert() {
+        try {
+            wait.until(ExpectedConditions.alertIsPresent());
+            Alert alert = driver.switchTo().alert();
+            alert.dismiss();
+        } catch (Exception e) {
+            throw new RuntimeException("No alert present to close.");
+        }
     }
 }
+

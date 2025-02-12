@@ -1,10 +1,16 @@
 package Page_Objects;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
+
 
 public class ProductsPage extends BasePage {
 
@@ -26,26 +32,66 @@ public class ProductsPage extends BasePage {
     @FindBy(css = "a[class='btn btn-success btn-lg']")
     private WebElement ProductAddToCartBtn;
 
-    @FindBy(partialLinkText = "Home ")
+    @FindBy(xpath = "//div[@class='navbar-collapse']//a[@href='index.html']")
     private WebElement HomePageLink;
+
+    @FindBy(xpath = "//div[@id='footc']//b[contains(text(), 'About Us')]")
+    private WebElement AboutUsFooter;
+
+    //For Dynamic and Stale Elements
+    private WebElement getMonitorsCategory(){
+        return driver.findElement(By.xpath("//div[@class='list-group']//a[contains(text(),'Monitors')]"));
+    }
+
+    private WebElement getLaptopsCategory(){
+        return driver.findElement(By.xpath("//div[@class='list-group']//a[contains(text(),'Monitors')]"));
+    }
+
+    private WebElement getPhonesCategory(){
+        return driver.findElement(By.xpath("//div[@class='list-group']//a[contains(text(),'Monitors')]"));
+    }
+
+
 
 
     //Dynamic locator for product selection
     public void clickProduct(String productName){
         By productLocator = By.xpath("//a[contains(text(),'" + productName + "')]");
-        driver.findElement(productLocator).click();
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.elementToBeClickable(productLocator)).click();
     }
 
     public void clickMonitorsCategory(){
-        click(MonitorsCategory);
+        try{
+            click(MonitorsCategory);
+        }
+        catch (StaleElementReferenceException e){
+            driver.navigate().refresh();
+            waitForElement(getMonitorsCategory());
+            getMonitorsCategory().click();
+        }
     }
 
     public void clickLaptopsCategory(){
-        click(LaptopsCategory);
+        try {
+            click(LaptopsCategory);
+        }
+        catch (StaleElementReferenceException e){
+            driver.navigate().refresh();
+            waitForElement(getLaptopsCategory());
+            getLaptopsCategory().click();
+        }
     }
 
     public void clickPhonesCategory(){
-        click(PhonesCategory);
+        try {
+            click(PhonesCategory);
+        }
+        catch (StaleElementReferenceException e){
+            driver.navigate().refresh();
+            waitForElement(getPhonesCategory());
+            getPhonesCategory().click();
+        }
     }
 
     public void clickProductAddToCartBtn(){
@@ -60,4 +106,5 @@ public class ProductsPage extends BasePage {
     public void clickHomePageLink(){
         click(HomePageLink);
     }
+
 }

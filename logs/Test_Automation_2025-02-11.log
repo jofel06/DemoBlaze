@@ -1,90 +1,1116 @@
-2025-02-11 14:27:57 [EDGE-loginWithValidCredentials-50] INFO  - Starting Test using Edge browser for Test: loginWithValidCredentials
-2025-02-11 14:27:57 [CHROME-loginWithValidCredentials-49] INFO  - Starting test using Chrome browser for Test: loginWithValidCredentials
-2025-02-11 14:27:58 [EDGE-loginWithValidCredentials-50] INFO  - Navigating to base URL: https://www.demoblaze.com/
-2025-02-11 14:27:58 [CHROME-loginWithValidCredentials-49] INFO  - Navigating to base URL: https://www.demoblaze.com/
-2025-02-11 14:27:59 [EDGE-loginWithValidCredentials-50] INFO  - Navigating to the Login page
-2025-02-11 14:27:59 [CHROME-loginWithValidCredentials-49] INFO  - Navigating to the Login page
-2025-02-11 14:27:59 [CHROME-loginWithValidCredentials-49] INFO  - Entering a valid username
-2025-02-11 14:27:59 [EDGE-loginWithValidCredentials-50] INFO  - Entering a valid username
-2025-02-11 14:27:59 [EDGE-loginWithValidCredentials-50] INFO  - Entering a valid password
-2025-02-11 14:27:59 [CHROME-loginWithValidCredentials-49] INFO  - Entering a valid password
-2025-02-11 14:28:00 [CHROME-loginWithValidCredentials-49] INFO  - Clicking the Login button
-2025-02-11 14:28:00 [EDGE-loginWithValidCredentials-50] INFO  - Clicking the Login button
-2025-02-11 14:28:00 [CHROME-loginWithValidCredentials-49] INFO  - Login Successful
-2025-02-11 14:28:00 [EDGE-loginWithValidCredentials-50] INFO  - Login Successful
-2025-02-11 14:28:00 [CHROME-loginWithValidCredentials-49] INFO  - Browser closed 
-2025-02-11 14:28:00 [CHROME-loginWithValidCredentials-49] INFO  - Starting test using Chrome browser for Test: loginWithValidCredentials
-2025-02-11 14:28:00 [CHROME-loginWithValidCredentials-49] INFO  - Navigating to base URL: https://www.demoblaze.com/
-2025-02-11 14:28:01 [EDGE-loginWithValidCredentials-50] INFO  - Browser closed 
-2025-02-11 14:28:01 [CHROME-loginWithValidCredentials-49] INFO  - Navigating to the Login page
-2025-02-11 14:28:02 [CHROME-loginWithValidCredentials-49] INFO  - Entering a valid username
-2025-02-11 14:28:02 [EDGE-loginWithValidCredentials-50] INFO  - Starting Test using Edge browser for Test: loginWithValidCredentials
-2025-02-11 14:28:02 [EDGE-loginWithValidCredentials-50] INFO  - Navigating to base URL: https://www.demoblaze.com/
-2025-02-11 14:28:02 [CHROME-loginWithValidCredentials-49] INFO  - Entering a valid password
-2025-02-11 14:28:02 [CHROME-loginWithValidCredentials-49] INFO  - Clicking the Login button
-2025-02-11 14:28:03 [CHROME-loginWithValidCredentials-49] INFO  - Login Successful
-2025-02-11 14:28:03 [CHROME-loginWithValidCredentials-49] INFO  - Browser closed 
-2025-02-11 14:28:03 [EDGE-loginWithValidCredentials-50] INFO  - Navigating to the Login page
-2025-02-11 14:28:03 [EDGE-loginWithValidCredentials-50] INFO  - Entering a valid username
-2025-02-11 14:28:04 [EDGE-loginWithValidCredentials-50] INFO  - Entering a valid password
-2025-02-11 14:28:04 [CHROME-loginWithInvalidCredentials-49] INFO  - Starting test using Chrome browser for Test: loginWithInvalidCredentials
-2025-02-11 14:28:04 [EDGE-loginWithValidCredentials-50] INFO  - Clicking the Login button
-2025-02-11 14:28:04 [CHROME-loginWithInvalidCredentials-49] INFO  - Navigating to base URL: https://www.demoblaze.com/
-2025-02-11 14:28:04 [EDGE-loginWithValidCredentials-50] INFO  - Login Successful
-2025-02-11 14:28:04 [CHROME-loginWithInvalidCredentials-49] INFO  - Navigating to the Login page
-2025-02-11 14:28:04 [CHROME-loginWithInvalidCredentials-49] INFO  - Entering an invalid username
-2025-02-11 14:28:05 [EDGE-loginWithValidCredentials-50] INFO  - Browser closed 
-2025-02-11 14:28:05 [CHROME-loginWithInvalidCredentials-49] INFO  - Entering an invalid password
-2025-02-11 14:28:05 [CHROME-loginWithInvalidCredentials-49] INFO  - Clicking the Login button
-2025-02-11 14:28:06 [EDGE-loginWithInvalidCredentials-50] INFO  - Starting Test using Edge browser for Test: loginWithInvalidCredentials
-2025-02-11 14:28:06 [EDGE-loginWithInvalidCredentials-50] INFO  - Navigating to base URL: https://www.demoblaze.com/
-2025-02-11 14:28:06 [CHROME-loginWithInvalidCredentials-49] INFO  - Login Failed, please enter a valid username or password
-2025-02-11 14:28:06 [CHROME-loginWithInvalidCredentials-49] INFO  - Browser closed 
-2025-02-11 14:28:07 [CHROME-loginWithInvalidCredentials-49] INFO  - Starting test using Chrome browser for Test: loginWithInvalidCredentials
-2025-02-11 14:28:07 [CHROME-loginWithInvalidCredentials-49] INFO  - Navigating to base URL: https://www.demoblaze.com/
-2025-02-11 14:28:07 [EDGE-loginWithInvalidCredentials-50] INFO  - Navigating to the Login page
-2025-02-11 14:28:07 [EDGE-loginWithInvalidCredentials-50] INFO  - Entering an invalid username
-2025-02-11 14:28:07 [CHROME-loginWithInvalidCredentials-49] INFO  - Navigating to the Login page
-2025-02-11 14:28:08 [CHROME-loginWithInvalidCredentials-49] INFO  - Entering an invalid username
-2025-02-11 14:28:08 [EDGE-loginWithInvalidCredentials-50] INFO  - Entering an invalid password
-2025-02-11 14:28:08 [EDGE-loginWithInvalidCredentials-50] INFO  - Clicking the Login button
-2025-02-11 14:28:08 [CHROME-loginWithInvalidCredentials-49] INFO  - Entering an invalid password
-2025-02-11 14:28:08 [CHROME-loginWithInvalidCredentials-49] INFO  - Clicking the Login button
-2025-02-11 14:28:09 [EDGE-loginWithInvalidCredentials-50] INFO  - Login Failed, please enter a valid username or password
-2025-02-11 14:28:09 [CHROME-loginWithInvalidCredentials-49] INFO  - Login Failed, please enter a valid username or password
-2025-02-11 14:28:09 [CHROME-loginWithInvalidCredentials-49] INFO  - Browser closed 
-2025-02-11 14:28:10 [CHROME-AddToCartWithoutLoginTest-49] INFO  - Starting test using Chrome browser for Test: AddToCartWithoutLoginTest
-2025-02-11 14:28:10 [EDGE-loginWithInvalidCredentials-50] INFO  - Browser closed 
-2025-02-11 14:28:10 [CHROME-AddToCartWithoutLoginTest-49] INFO  - Navigating to base URL: https://www.demoblaze.com/
-2025-02-11 14:28:11 [CHROME-AddToCartWithoutLoginTest-49] INFO  - Navigating to Cart Page
-2025-02-11 14:28:11 [EDGE-loginWithInvalidCredentials-50] INFO  - Starting Test using Edge browser for Test: loginWithInvalidCredentials
-2025-02-11 14:28:11 [EDGE-loginWithInvalidCredentials-50] INFO  - Navigating to base URL: https://www.demoblaze.com/
-2025-02-11 14:28:11 [CHROME-AddToCartWithoutLoginTest-49] INFO  - Placing the Order
-2025-02-11 14:28:11 [CHROME-AddToCartWithoutLoginTest-49] INFO  - Entering the Name
-2025-02-11 14:28:11 [EDGE-loginWithInvalidCredentials-50] INFO  - Navigating to the Login page
-2025-02-11 14:28:12 [EDGE-loginWithInvalidCredentials-50] INFO  - Entering an invalid username
-2025-02-11 14:28:12 [CHROME-AddToCartWithoutLoginTest-49] INFO  - Entering the Country
-2025-02-11 14:28:12 [CHROME-AddToCartWithoutLoginTest-49] INFO  - Entering the City
-2025-02-11 14:28:12 [CHROME-AddToCartWithoutLoginTest-49] INFO  - Entering the Credit Card Information
-2025-02-11 14:28:12 [EDGE-loginWithInvalidCredentials-50] INFO  - Entering an invalid password
-2025-02-11 14:28:12 [CHROME-AddToCartWithoutLoginTest-49] INFO  - Entering the Month
-2025-02-11 14:28:12 [EDGE-loginWithInvalidCredentials-50] INFO  - Clicking the Login button
-2025-02-11 14:28:12 [CHROME-AddToCartWithoutLoginTest-49] INFO  - Entering the Year
-2025-02-11 14:28:12 [CHROME-AddToCartWithoutLoginTest-49] INFO  - Clicking the Purchase Button
-2025-02-11 14:28:12 [CHROME-AddToCartWithoutLoginTest-49] INFO  - Purchase Completed
-2025-02-11 14:28:13 [CHROME-AddToCartWithoutLoginTest-49] INFO  - Browser closed 
-2025-02-11 14:28:13 [EDGE-loginWithInvalidCredentials-50] INFO  - Login Failed, please enter a valid username or password
-2025-02-11 14:28:14 [EDGE-loginWithInvalidCredentials-50] INFO  - Browser closed 
-2025-02-11 14:28:15 [EDGE-AddToCartWithoutLoginTest-50] INFO  - Starting Test using Edge browser for Test: AddToCartWithoutLoginTest
-2025-02-11 14:28:15 [EDGE-AddToCartWithoutLoginTest-50] INFO  - Navigating to base URL: https://www.demoblaze.com/
-2025-02-11 14:28:16 [EDGE-AddToCartWithoutLoginTest-50] INFO  - Navigating to Cart Page
-2025-02-11 14:28:17 [EDGE-AddToCartWithoutLoginTest-50] INFO  - Placing the Order
-2025-02-11 14:28:17 [EDGE-AddToCartWithoutLoginTest-50] INFO  - Entering the Name
-2025-02-11 14:28:18 [EDGE-AddToCartWithoutLoginTest-50] INFO  - Entering the Country
-2025-02-11 14:28:18 [EDGE-AddToCartWithoutLoginTest-50] INFO  - Entering the City
-2025-02-11 14:28:18 [EDGE-AddToCartWithoutLoginTest-50] INFO  - Entering the Credit Card Information
-2025-02-11 14:28:18 [EDGE-AddToCartWithoutLoginTest-50] INFO  - Entering the Month
-2025-02-11 14:28:18 [EDGE-AddToCartWithoutLoginTest-50] INFO  - Entering the Year
-2025-02-11 14:28:18 [EDGE-AddToCartWithoutLoginTest-50] INFO  - Clicking the Purchase Button
-2025-02-11 14:28:18 [EDGE-AddToCartWithoutLoginTest-50] INFO  - Purchase Completed
-2025-02-11 14:28:19 [EDGE-AddToCartWithoutLoginTest-50] INFO  - Browser closed 
+2025-02-11 20:26:45 [CHROME-testAddToCartWithValidAccount-45] INFO  - Starting test using Chrome browser for Test: testAddToCartWithValidAccount
+2025-02-11 20:26:45 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-11 20:26:46 [CHROME-testAddToCartWithValidAccount-45] INFO  - Clicking the Login Page
+2025-02-11 20:26:46 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid username
+2025-02-11 20:26:47 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid password
+2025-02-11 20:26:47 [CHROME-testAddToCartWithValidAccount-45] INFO  - Logging in
+2025-02-11 20:26:47 [CHROME-testAddToCartWithValidAccount-45] INFO  - Login was Successful
+2025-02-11 20:26:47 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to the Monitors Category
+2025-02-11 20:26:48 [CHROME-testAddToCartWithValidAccount-45] ERROR - Add to Cart test was not successful due to an error:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d2200e90f53def49808da83b02c44c8c, clickElement {id=f.F6A3C1911C23014248B27045406D25EA.d.5B20E2CEC61754A36A22030F40805794.e.47}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\CHRIST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60682}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60682/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d2200e90f53def49808da83b02c44c8c)] -> xpath: //div[@class='list-group']//a[contains(text(),'Monitors')]]
+Session ID: d2200e90f53def49808da83b02c44c8c
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.28.1.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.28.1.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source) ~[?:?]
+	at Page_Objects.ProductsPage.clickMonitorsCategory(ProductsPage.java:45) ~[test-classes/:?]
+	at Tests.ProductAddToCartWithAccountTest.testAddToCartWithValidAccount(ProductAddToCartWithAccountTest.java:24) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+2025-02-11 20:26:48 [CHROME-testAddToCartWithValidAccount-45] INFO  - Browser closed 
+2025-02-11 20:26:49 [CHROME-testAddToCartWithValidAccount-45] INFO  - Starting test using Chrome browser for Test: testAddToCartWithValidAccount
+2025-02-11 20:26:49 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-11 20:26:50 [CHROME-testAddToCartWithValidAccount-45] INFO  - Clicking the Login Page
+2025-02-11 20:26:50 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid username
+2025-02-11 20:26:50 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid password
+2025-02-11 20:26:51 [CHROME-testAddToCartWithValidAccount-45] INFO  - Logging in
+2025-02-11 20:26:51 [CHROME-testAddToCartWithValidAccount-45] INFO  - Login was Successful
+2025-02-11 20:26:51 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to the Monitors Category
+2025-02-11 20:26:51 [CHROME-testAddToCartWithValidAccount-45] ERROR - Add to Cart test was not successful due to an error:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6e7304e63211a72f83b434c39b8f28e5, clickElement {id=f.98B5B870D749FB5AA6BA22C44E632C58.d.8C120701298E675BAB2A72D19536323C.e.53}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\CHRIST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60702}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60702/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6e7304e63211a72f83b434c39b8f28e5)] -> xpath: //div[@class='list-group']//a[contains(text(),'Monitors')]]
+Session ID: 6e7304e63211a72f83b434c39b8f28e5
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.28.1.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.28.1.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source) ~[?:?]
+	at Page_Objects.ProductsPage.clickMonitorsCategory(ProductsPage.java:45) ~[test-classes/:?]
+	at Tests.ProductAddToCartWithAccountTest.testAddToCartWithValidAccount(ProductAddToCartWithAccountTest.java:24) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+2025-02-11 20:26:51 [CHROME-testAddToCartWithValidAccount-45] INFO  - Browser closed 
+2025-02-11 20:30:55 [CHROME-testAddToCartWithValidAccount-45] INFO  - Starting test using Chrome browser for Test: testAddToCartWithValidAccount
+2025-02-11 20:30:55 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-11 20:30:56 [CHROME-testAddToCartWithValidAccount-45] INFO  - Clicking the Login Page
+2025-02-11 20:30:56 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid username
+2025-02-11 20:30:57 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid password
+2025-02-11 20:30:57 [CHROME-testAddToCartWithValidAccount-45] INFO  - Logging in
+2025-02-11 20:30:57 [CHROME-testAddToCartWithValidAccount-45] INFO  - Login was Successful
+2025-02-11 20:30:57 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to the Monitors Category
+2025-02-11 20:30:58 [CHROME-testAddToCartWithValidAccount-45] ERROR - Add to Cart test was not successful due to an error:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [db03d1ba343d90a0fd557ecfa4c33a36, clickElement {id=f.407EEB4DC48BF104D3222242AEC6A571.d.9D7D0A0D8F266B56EC4F295267026722.e.46}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\CHRIST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60846}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60846/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (db03d1ba343d90a0fd557ecfa4c33a36)] -> xpath: //div[@class='list-group']//a[contains(text(),'Monitors')]]
+Session ID: db03d1ba343d90a0fd557ecfa4c33a36
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.28.1.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.28.1.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source) ~[?:?]
+	at Page_Objects.ProductsPage.clickMonitorsCategory(ProductsPage.java:45) ~[test-classes/:?]
+	at Tests.ProductAddToCartWithAccountTest.testAddToCartWithValidAccount(ProductAddToCartWithAccountTest.java:24) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+2025-02-11 20:30:58 [CHROME-testAddToCartWithValidAccount-45] INFO  - Browser closed 
+2025-02-11 20:30:59 [CHROME-testAddToCartWithValidAccount-45] INFO  - Starting test using Chrome browser for Test: testAddToCartWithValidAccount
+2025-02-11 20:30:59 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-11 20:30:59 [CHROME-testAddToCartWithValidAccount-45] INFO  - Clicking the Login Page
+2025-02-11 20:31:00 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid username
+2025-02-11 20:31:00 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid password
+2025-02-11 20:31:00 [CHROME-testAddToCartWithValidAccount-45] INFO  - Logging in
+2025-02-11 20:31:00 [CHROME-testAddToCartWithValidAccount-45] INFO  - Login was Successful
+2025-02-11 20:31:00 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to the Monitors Category
+2025-02-11 20:31:02 [CHROME-testAddToCartWithValidAccount-45] ERROR - Add to Cart test was not successful due to an error:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [acb201437873f389c8529be5f6edaa20, clickElement {id=f.AA4A4575692C351736DBB727D4260019.d.4390E19071614B1355525A1D7397A52A.e.46}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\CHRIST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60866}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60866/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (acb201437873f389c8529be5f6edaa20)] -> xpath: //div[@class='list-group']//a[contains(text(),'Monitors')]]
+Session ID: acb201437873f389c8529be5f6edaa20
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.28.1.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.28.1.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source) ~[?:?]
+	at Page_Objects.ProductsPage.clickMonitorsCategory(ProductsPage.java:45) ~[test-classes/:?]
+	at Tests.ProductAddToCartWithAccountTest.testAddToCartWithValidAccount(ProductAddToCartWithAccountTest.java:24) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+2025-02-11 20:31:02 [CHROME-testAddToCartWithValidAccount-45] INFO  - Browser closed 
+2025-02-11 20:31:36 [CHROME-testAddToCartWithValidAccount-45] INFO  - Starting test using Chrome browser for Test: testAddToCartWithValidAccount
+2025-02-11 20:31:36 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-11 20:31:37 [CHROME-testAddToCartWithValidAccount-45] INFO  - Clicking the Login Page
+2025-02-11 20:31:37 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid username
+2025-02-11 20:31:37 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid password
+2025-02-11 20:31:37 [CHROME-testAddToCartWithValidAccount-45] INFO  - Logging in
+2025-02-11 20:31:38 [CHROME-testAddToCartWithValidAccount-45] INFO  - Login was Successful
+2025-02-11 20:31:38 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to the Monitors Category
+2025-02-11 20:31:38 [CHROME-testAddToCartWithValidAccount-45] ERROR - Add to Cart test was not successful due to an error:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6ad7461197629cfdcc5ee0a76e97b661, clickElement {id=f.2222F22A69EAE35FB3D586AE81FE0652.d.6E34C712C6645DF350B3C363BE52A443.e.29}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\CHRIST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60901}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60901/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6ad7461197629cfdcc5ee0a76e97b661)] -> xpath: //div[@class='list-group']//a[contains(text(),'Monitors')]]
+Session ID: 6ad7461197629cfdcc5ee0a76e97b661
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.28.1.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.28.1.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source) ~[?:?]
+	at Page_Objects.ProductsPage.clickMonitorsCategory(ProductsPage.java:45) ~[test-classes/:?]
+	at Tests.ProductAddToCartWithAccountTest.testAddToCartWithValidAccount(ProductAddToCartWithAccountTest.java:24) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+2025-02-11 20:31:39 [CHROME-testAddToCartWithValidAccount-45] INFO  - Browser closed 
+2025-02-11 20:31:39 [CHROME-testAddToCartWithValidAccount-45] INFO  - Starting test using Chrome browser for Test: testAddToCartWithValidAccount
+2025-02-11 20:31:39 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-11 20:31:40 [CHROME-testAddToCartWithValidAccount-45] INFO  - Clicking the Login Page
+2025-02-11 20:31:40 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid username
+2025-02-11 20:31:41 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid password
+2025-02-11 20:31:41 [CHROME-testAddToCartWithValidAccount-45] INFO  - Logging in
+2025-02-11 20:31:41 [CHROME-testAddToCartWithValidAccount-45] INFO  - Login was Successful
+2025-02-11 20:31:41 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to the Monitors Category
+2025-02-11 20:31:42 [CHROME-testAddToCartWithValidAccount-45] ERROR - Add to Cart test was not successful due to an error:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe1ccae37369385e76a8ae8db7f84faf, clickElement {id=f.1C94ABDEF8F5FD0026789E7886CD8E97.d.DCBE28345E90CB1D5DBDF3EA11685A04.e.29}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\CHRIST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60920}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60920/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fe1ccae37369385e76a8ae8db7f84faf)] -> xpath: //div[@class='list-group']//a[contains(text(),'Monitors')]]
+Session ID: fe1ccae37369385e76a8ae8db7f84faf
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.28.1.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.28.1.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source) ~[?:?]
+	at Page_Objects.ProductsPage.clickMonitorsCategory(ProductsPage.java:45) ~[test-classes/:?]
+	at Tests.ProductAddToCartWithAccountTest.testAddToCartWithValidAccount(ProductAddToCartWithAccountTest.java:24) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+2025-02-11 20:31:43 [CHROME-testAddToCartWithValidAccount-45] INFO  - Browser closed 
+2025-02-11 20:32:13 [CHROME-testAddToCartWithValidAccount-45] INFO  - Starting test using Chrome browser for Test: testAddToCartWithValidAccount
+2025-02-11 20:32:13 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-11 20:32:14 [CHROME-testAddToCartWithValidAccount-45] INFO  - Clicking the Login Page
+2025-02-11 20:32:14 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid username
+2025-02-11 20:32:15 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid password
+2025-02-11 20:32:15 [CHROME-testAddToCartWithValidAccount-45] INFO  - Logging in
+2025-02-11 20:32:15 [CHROME-testAddToCartWithValidAccount-45] INFO  - Login was Successful
+2025-02-11 20:32:18 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to the Monitors Category
+2025-02-11 20:32:18 [CHROME-testAddToCartWithValidAccount-45] INFO  - Selecting a Monitor Product
+2025-02-11 20:32:18 [CHROME-testAddToCartWithValidAccount-45] ERROR - Add to Cart test was not successful due to an error:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Apple monitor 24')]"}
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [353de0d46328efde05bb6c66410cf6dd, findElement {using=xpath, value=//a[contains(text(),'Apple monitor 24')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\CHRIST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60955}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60955/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 353de0d46328efde05bb6c66410cf6dd
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.28.1.jar:?]
+	at Page_Objects.ProductsPage.clickProduct(ProductsPage.java:40) ~[test-classes/:?]
+	at Tests.ProductAddToCartWithAccountTest.testAddToCartWithValidAccount(ProductAddToCartWithAccountTest.java:27) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+2025-02-11 20:32:18 [CHROME-testAddToCartWithValidAccount-45] INFO  - Browser closed 
+2025-02-11 20:32:19 [CHROME-testAddToCartWithValidAccount-45] INFO  - Starting test using Chrome browser for Test: testAddToCartWithValidAccount
+2025-02-11 20:32:19 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-11 20:32:20 [CHROME-testAddToCartWithValidAccount-45] INFO  - Clicking the Login Page
+2025-02-11 20:32:20 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid username
+2025-02-11 20:32:21 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid password
+2025-02-11 20:32:21 [CHROME-testAddToCartWithValidAccount-45] INFO  - Logging in
+2025-02-11 20:32:21 [CHROME-testAddToCartWithValidAccount-45] INFO  - Login was Successful
+2025-02-11 20:32:24 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to the Monitors Category
+2025-02-11 20:32:24 [CHROME-testAddToCartWithValidAccount-45] INFO  - Selecting a Monitor Product
+2025-02-11 20:32:24 [CHROME-testAddToCartWithValidAccount-45] ERROR - Add to Cart test was not successful due to an error:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Apple monitor 24')]"}
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ea9f5cd74679523e5f00cb0932268112, findElement {using=xpath, value=//a[contains(text(),'Apple monitor 24')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\CHRIST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60982}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60982/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ea9f5cd74679523e5f00cb0932268112
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.28.1.jar:?]
+	at Page_Objects.ProductsPage.clickProduct(ProductsPage.java:40) ~[test-classes/:?]
+	at Tests.ProductAddToCartWithAccountTest.testAddToCartWithValidAccount(ProductAddToCartWithAccountTest.java:27) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+2025-02-11 20:32:24 [CHROME-testAddToCartWithValidAccount-45] INFO  - Browser closed 
+2025-02-11 20:39:26 [CHROME-testAddToCartWithValidAccount-45] INFO  - Starting test using Chrome browser for Test: testAddToCartWithValidAccount
+2025-02-11 20:39:26 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-11 20:39:27 [CHROME-testAddToCartWithValidAccount-45] INFO  - Clicking the Login Page
+2025-02-11 20:39:27 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid username
+2025-02-11 20:39:28 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid password
+2025-02-11 20:39:28 [CHROME-testAddToCartWithValidAccount-45] INFO  - Logging in
+2025-02-11 20:39:28 [CHROME-testAddToCartWithValidAccount-45] INFO  - Login was Successful
+2025-02-11 20:39:28 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to the Monitors Category
+2025-02-11 20:39:38 [CHROME-testAddToCartWithValidAccount-45] ERROR - Add to Cart test was not successful due to an error:
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for invisibility of [[ChromeDriver: chrome on windows (d55969c2e137a1c4c2a717edf84cb940)] -> css selector: div[id='footc']] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\CHRIST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61221}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61221/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d55969c2e137a1c4c2a717edf84cb940
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.28.1.jar:?]
+	at Page_Objects.ProductsPage.waitAboutUsFooterToDisappear(ProductsPage.java:76) ~[test-classes/:?]
+	at Tests.ProductAddToCartWithAccountTest.testAddToCartWithValidAccount(ProductAddToCartWithAccountTest.java:24) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+2025-02-11 20:39:38 [CHROME-testAddToCartWithValidAccount-45] INFO  - Browser closed 
+2025-02-11 20:39:39 [CHROME-testAddToCartWithValidAccount-45] INFO  - Starting test using Chrome browser for Test: testAddToCartWithValidAccount
+2025-02-11 20:39:39 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-11 20:39:40 [CHROME-testAddToCartWithValidAccount-45] INFO  - Clicking the Login Page
+2025-02-11 20:39:40 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid username
+2025-02-11 20:39:41 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid password
+2025-02-11 20:39:41 [CHROME-testAddToCartWithValidAccount-45] INFO  - Logging in
+2025-02-11 20:39:41 [CHROME-testAddToCartWithValidAccount-45] INFO  - Login was Successful
+2025-02-11 20:39:41 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to the Monitors Category
+2025-02-11 20:39:51 [CHROME-testAddToCartWithValidAccount-45] ERROR - Add to Cart test was not successful due to an error:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.160)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [67aa8814f75772fa307de2173b610d5d, findElement {using=css selector, value=div[id='footc']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\CHRIST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61251}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61251/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 67aa8814f75772fa307de2173b610d5d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.28.1.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy26.toString(Unknown Source) ~[?:?]
+	at java.base/java.lang.String.valueOf(String.java:4556) ~[?:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$48.toString(ExpectedConditions.java:1367) ~[selenium-support-4.28.1.jar:?]
+	at java.base/java.lang.String.valueOf(String.java:4556) ~[?:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:225) ~[selenium-support-4.28.1.jar:?]
+	at Page_Objects.ProductsPage.waitAboutUsFooterToDisappear(ProductsPage.java:76) ~[test-classes/:?]
+	at Tests.ProductAddToCartWithAccountTest.testAddToCartWithValidAccount(ProductAddToCartWithAccountTest.java:24) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+2025-02-11 20:39:51 [CHROME-testAddToCartWithValidAccount-45] INFO  - Browser closed 
+2025-02-11 20:44:25 [CHROME-testAddToCartWithValidAccount-45] INFO  - Starting test using Chrome browser for Test: testAddToCartWithValidAccount
+2025-02-11 20:44:25 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-11 20:44:26 [CHROME-testAddToCartWithValidAccount-45] INFO  - Clicking the Login Page
+2025-02-11 20:44:26 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid username
+2025-02-11 20:44:27 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid password
+2025-02-11 20:44:27 [CHROME-testAddToCartWithValidAccount-45] INFO  - Logging in
+2025-02-11 20:44:27 [CHROME-testAddToCartWithValidAccount-45] INFO  - Login was Successful
+2025-02-11 20:44:27 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to the Monitors Category
+2025-02-11 20:44:32 [CHROME-testAddToCartWithValidAccount-45] ERROR - Add to Cart test was not successful due to an error:
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for invisibility of [[ChromeDriver: chrome on windows (af9f9dac1b037e85773e009aff7450da)] -> css selector: div[id='footc']] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\CHRIST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61417}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61417/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: af9f9dac1b037e85773e009aff7450da
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.28.1.jar:?]
+	at Page_Objects.ProductsPage.waitAboutUsFooterToDisappear(ProductsPage.java:76) ~[test-classes/:?]
+	at Tests.ProductAddToCartWithAccountTest.testAddToCartWithValidAccount(ProductAddToCartWithAccountTest.java:24) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+2025-02-11 20:44:33 [CHROME-testAddToCartWithValidAccount-45] INFO  - Browser closed 
+2025-02-11 20:44:33 [CHROME-testAddToCartWithValidAccount-45] INFO  - Starting test using Chrome browser for Test: testAddToCartWithValidAccount
+2025-02-11 20:44:33 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-11 20:44:34 [CHROME-testAddToCartWithValidAccount-45] INFO  - Clicking the Login Page
+2025-02-11 20:44:45 [CHROME-testAddToCartWithValidAccount-45] ERROR - Add to Cart test was not successful due to an error:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.160)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [74bcbb67fb07d01fe0a117107d6c9bae, findElement {using=id, value=login2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\CHRIST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61442}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61442/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 74bcbb67fb07d01fe0a117107d6c9bae
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.28.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.28.1.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy26.toString(Unknown Source) ~[?:?]
+	at java.base/java.lang.String.valueOf(String.java:4556) ~[?:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:295) ~[selenium-support-4.28.1.jar:?]
+	at java.base/java.lang.String.valueOf(String.java:4556) ~[?:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:225) ~[selenium-support-4.28.1.jar:?]
+	at Page_Objects.BasePage.click(BasePage.java:31) ~[test-classes/:?]
+	at Page_Objects.LoginPage.clickLoginLink(LoginPage.java:35) ~[test-classes/:?]
+	at Tests.ProductAddToCartWithAccountTest.testAddToCartWithValidAccount(ProductAddToCartWithAccountTest.java:15) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+2025-02-11 20:44:45 [CHROME-testAddToCartWithValidAccount-45] INFO  - Browser closed 
+2025-02-11 20:45:17 [CHROME-testAddToCartWithValidAccount-45] INFO  - Starting test using Chrome browser for Test: testAddToCartWithValidAccount
+2025-02-11 20:45:17 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-11 20:45:18 [CHROME-testAddToCartWithValidAccount-45] INFO  - Clicking the Login Page
+2025-02-11 20:45:18 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid username
+2025-02-11 20:45:18 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid password
+2025-02-11 20:45:18 [CHROME-testAddToCartWithValidAccount-45] INFO  - Logging in
+2025-02-11 20:45:19 [CHROME-testAddToCartWithValidAccount-45] INFO  - Login was Successful
+2025-02-11 20:45:19 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to the Monitors Category
+2025-02-11 20:45:20 [CHROME-testAddToCartWithValidAccount-45] ERROR - Add to Cart test was not successful due to an error:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0abb3b5f127b180dc8272354e7ca1658, clickElement {id=f.62C51374C181CE741548D1BD3C3C6733.d.B98017A785B2A2D3C6CECAE0729FA5F0.e.30}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\CHRIST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61482}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61482/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0abb3b5f127b180dc8272354e7ca1658)] -> xpath: //div[@class='list-group']//a[contains(text(),'Monitors')]]
+Session ID: 0abb3b5f127b180dc8272354e7ca1658
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.28.1.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.28.1.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source) ~[?:?]
+	at Page_Objects.ProductsPage.clickMonitorsCategory(ProductsPage.java:48) ~[test-classes/:?]
+	at Tests.ProductAddToCartWithAccountTest.testAddToCartWithValidAccount(ProductAddToCartWithAccountTest.java:24) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+2025-02-11 20:45:20 [CHROME-testAddToCartWithValidAccount-45] INFO  - Browser closed 
+2025-02-11 20:45:20 [CHROME-testAddToCartWithValidAccount-45] INFO  - Starting test using Chrome browser for Test: testAddToCartWithValidAccount
+2025-02-11 20:45:20 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-11 20:45:21 [CHROME-testAddToCartWithValidAccount-45] INFO  - Clicking the Login Page
+2025-02-11 20:45:21 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid username
+2025-02-11 20:45:22 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid password
+2025-02-11 20:45:22 [CHROME-testAddToCartWithValidAccount-45] INFO  - Logging in
+2025-02-11 20:45:22 [CHROME-testAddToCartWithValidAccount-45] INFO  - Login was Successful
+2025-02-11 20:45:22 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to the Monitors Category
+2025-02-11 20:45:23 [CHROME-testAddToCartWithValidAccount-45] ERROR - Add to Cart test was not successful due to an error:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09d13ef14c013ac30ba907640bea1a2e, clickElement {id=f.789A298B1A8D1E3D2A1B847D94D437C9.d.FC21135825E2DD70492DB8E8795698C1.e.49}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\CHRIST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61502}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61502/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (09d13ef14c013ac30ba907640bea1a2e)] -> xpath: //div[@class='list-group']//a[contains(text(),'Monitors')]]
+Session ID: 09d13ef14c013ac30ba907640bea1a2e
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.28.1.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.28.1.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source) ~[?:?]
+	at Page_Objects.ProductsPage.clickMonitorsCategory(ProductsPage.java:48) ~[test-classes/:?]
+	at Tests.ProductAddToCartWithAccountTest.testAddToCartWithValidAccount(ProductAddToCartWithAccountTest.java:24) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+2025-02-11 20:45:23 [CHROME-testAddToCartWithValidAccount-45] INFO  - Browser closed 
+2025-02-11 20:52:16 [CHROME-testAddToCartWithValidAccount-45] INFO  - Starting test using Chrome browser for Test: testAddToCartWithValidAccount
+2025-02-11 20:52:17 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-11 20:52:18 [CHROME-testAddToCartWithValidAccount-45] INFO  - Clicking the Login Page
+2025-02-11 20:52:18 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid username
+2025-02-11 20:52:18 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid password
+2025-02-11 20:52:19 [CHROME-testAddToCartWithValidAccount-45] INFO  - Logging in
+2025-02-11 20:52:19 [CHROME-testAddToCartWithValidAccount-45] INFO  - Login was Successful
+2025-02-11 20:52:19 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to the Monitors Category
+2025-02-11 20:52:19 [CHROME-testAddToCartWithValidAccount-45] ERROR - Add to Cart test was not successful due to an error:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [891cd0dd6ebda46779a09e96138b9ef9, clickElement {id=f.02FD7DA8AF1E19716E1DEB1C4540CFC4.d.2CDD0A3D5CD7D17373C9ADA5CF9EF24A.e.47}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\CHRIST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61739}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61739/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (891cd0dd6ebda46779a09e96138b9ef9)] -> xpath: //div[@class='list-group']//a[contains(text(),'Monitors')]]
+Session ID: 891cd0dd6ebda46779a09e96138b9ef9
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.28.1.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.28.1.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source) ~[?:?]
+	at Page_Objects.ProductsPage.clickMonitorsCategory(ProductsPage.java:48) ~[test-classes/:?]
+	at Tests.ProductAddToCartWithAccountTest.testAddToCartWithValidAccount(ProductAddToCartWithAccountTest.java:26) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+2025-02-11 20:52:20 [CHROME-testAddToCartWithValidAccount-45] INFO  - Browser closed 
+2025-02-11 20:52:20 [CHROME-testAddToCartWithValidAccount-45] INFO  - Starting test using Chrome browser for Test: testAddToCartWithValidAccount
+2025-02-11 20:52:20 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-11 20:52:21 [CHROME-testAddToCartWithValidAccount-45] INFO  - Clicking the Login Page
+2025-02-11 20:52:21 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid username
+2025-02-11 20:52:22 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid password
+2025-02-11 20:52:22 [CHROME-testAddToCartWithValidAccount-45] INFO  - Logging in
+2025-02-11 20:52:22 [CHROME-testAddToCartWithValidAccount-45] INFO  - Login was Successful
+2025-02-11 20:52:22 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to the Monitors Category
+2025-02-11 20:52:23 [CHROME-testAddToCartWithValidAccount-45] ERROR - Add to Cart test was not successful due to an error:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bb3ae6ccb427d79bc9092c9789b56438, clickElement {id=f.5BC6A8190827EC2703439426FBD95313.d.8D4FA581EC7828B93167CA15B70861C0.e.47}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\CHRIST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61760}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61760/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bb3ae6ccb427d79bc9092c9789b56438)] -> xpath: //div[@class='list-group']//a[contains(text(),'Monitors')]]
+Session ID: bb3ae6ccb427d79bc9092c9789b56438
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.28.1.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.28.1.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source) ~[?:?]
+	at Page_Objects.ProductsPage.clickMonitorsCategory(ProductsPage.java:48) ~[test-classes/:?]
+	at Tests.ProductAddToCartWithAccountTest.testAddToCartWithValidAccount(ProductAddToCartWithAccountTest.java:26) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+2025-02-11 20:52:23 [CHROME-testAddToCartWithValidAccount-45] INFO  - Browser closed 
+2025-02-11 20:52:42 [CHROME-testAddToCartWithValidAccount-45] INFO  - Starting test using Chrome browser for Test: testAddToCartWithValidAccount
+2025-02-11 20:52:42 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-11 20:52:43 [CHROME-testAddToCartWithValidAccount-45] INFO  - Clicking the Login Page
+2025-02-11 20:52:43 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid username
+2025-02-11 20:52:44 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid password
+2025-02-11 20:52:44 [CHROME-testAddToCartWithValidAccount-45] INFO  - Logging in
+2025-02-11 20:52:44 [CHROME-testAddToCartWithValidAccount-45] INFO  - Login was Successful
+2025-02-11 20:52:47 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to the Monitors Category
+2025-02-11 20:52:47 [CHROME-testAddToCartWithValidAccount-45] INFO  - Selecting a Monitor Product
+2025-02-11 20:52:47 [CHROME-testAddToCartWithValidAccount-45] ERROR - Add to Cart test was not successful due to an error:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Apple monitor 24')]"}
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb937975d9ab8157dd6420144e3c94ac, findElement {using=xpath, value=//a[contains(text(),'Apple monitor 24')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\CHRIST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61787}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61787/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eb937975d9ab8157dd6420144e3c94ac
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.28.1.jar:?]
+	at Page_Objects.ProductsPage.clickProduct(ProductsPage.java:43) ~[test-classes/:?]
+	at Tests.ProductAddToCartWithAccountTest.testAddToCartWithValidAccount(ProductAddToCartWithAccountTest.java:29) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+2025-02-11 20:52:47 [CHROME-testAddToCartWithValidAccount-45] INFO  - Browser closed 
+2025-02-11 20:52:48 [CHROME-testAddToCartWithValidAccount-45] INFO  - Starting test using Chrome browser for Test: testAddToCartWithValidAccount
+2025-02-11 20:52:48 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-11 20:52:49 [CHROME-testAddToCartWithValidAccount-45] INFO  - Clicking the Login Page
+2025-02-11 20:52:49 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid username
+2025-02-11 20:52:50 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid password
+2025-02-11 20:52:50 [CHROME-testAddToCartWithValidAccount-45] INFO  - Logging in
+2025-02-11 20:52:50 [CHROME-testAddToCartWithValidAccount-45] INFO  - Login was Successful
+2025-02-11 20:52:53 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to the Monitors Category
+2025-02-11 20:52:53 [CHROME-testAddToCartWithValidAccount-45] INFO  - Selecting a Monitor Product
+2025-02-11 20:52:53 [CHROME-testAddToCartWithValidAccount-45] ERROR - Add to Cart test was not successful due to an error:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Apple monitor 24')]"}
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f43e1a26cda95e6b9e34968253ac2fab, findElement {using=xpath, value=//a[contains(text(),'Apple monitor 24')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\CHRIST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61812}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61812/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f43e1a26cda95e6b9e34968253ac2fab
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.28.1.jar:?]
+	at Page_Objects.ProductsPage.clickProduct(ProductsPage.java:43) ~[test-classes/:?]
+	at Tests.ProductAddToCartWithAccountTest.testAddToCartWithValidAccount(ProductAddToCartWithAccountTest.java:29) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+2025-02-11 20:52:53 [CHROME-testAddToCartWithValidAccount-45] INFO  - Browser closed 
+2025-02-11 20:53:30 [CHROME-testAddToCartWithValidAccount-45] INFO  - Starting test using Chrome browser for Test: testAddToCartWithValidAccount
+2025-02-11 20:53:30 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-11 20:53:31 [CHROME-testAddToCartWithValidAccount-45] INFO  - Clicking the Login Page
+2025-02-11 20:53:31 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid username
+2025-02-11 20:53:32 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid password
+2025-02-11 20:53:32 [CHROME-testAddToCartWithValidAccount-45] INFO  - Logging in
+2025-02-11 20:53:32 [CHROME-testAddToCartWithValidAccount-45] INFO  - Login was Successful
+2025-02-11 20:53:35 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to the Monitors Category
+2025-02-11 20:53:35 [CHROME-testAddToCartWithValidAccount-45] INFO  - Selecting a Monitor Product
+2025-02-11 20:53:35 [CHROME-testAddToCartWithValidAccount-45] ERROR - Add to Cart test was not successful due to an error:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Apple monitor 24')]"}
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2f8f75a20f14363759deffcea4e3b3cd, findElement {value=//a[contains(text(),'Apple monitor 24')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\CHRIST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61858}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61858/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2f8f75a20f14363759deffcea4e3b3cd
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.28.1.jar:?]
+	at Page_Objects.ProductsPage.clickProduct(ProductsPage.java:43) ~[test-classes/:?]
+	at Tests.ProductAddToCartWithAccountTest.testAddToCartWithValidAccount(ProductAddToCartWithAccountTest.java:29) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+2025-02-11 20:53:35 [CHROME-testAddToCartWithValidAccount-45] INFO  - Browser closed 
+2025-02-11 20:53:36 [CHROME-testAddToCartWithValidAccount-45] INFO  - Starting test using Chrome browser for Test: testAddToCartWithValidAccount
+2025-02-11 20:53:36 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-11 20:53:37 [CHROME-testAddToCartWithValidAccount-45] INFO  - Clicking the Login Page
+2025-02-11 20:53:37 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid username
+2025-02-11 20:53:38 [CHROME-testAddToCartWithValidAccount-45] INFO  - Entering a valid password
+2025-02-11 20:53:38 [CHROME-testAddToCartWithValidAccount-45] INFO  - Logging in
+2025-02-11 20:53:38 [CHROME-testAddToCartWithValidAccount-45] INFO  - Login was Successful
+2025-02-11 20:53:41 [CHROME-testAddToCartWithValidAccount-45] INFO  - Navigating to the Monitors Category
+2025-02-11 20:53:41 [CHROME-testAddToCartWithValidAccount-45] INFO  - Selecting a Monitor Product
+2025-02-11 20:53:41 [CHROME-testAddToCartWithValidAccount-45] ERROR - Add to Cart test was not successful due to an error:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Apple monitor 24')]"}
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6a390740d76ff8a9d6f1da56bf7fb10f, findElement {value=//a[contains(text(),'Apple monitor 24')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\CHRIST~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61889}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61889/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a390740d76ff8a9d6f1da56bf7fb10f
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.28.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.28.1.jar:?]
+	at Page_Objects.ProductsPage.clickProduct(ProductsPage.java:43) ~[test-classes/:?]
+	at Tests.ProductAddToCartWithAccountTest.testAddToCartWithValidAccount(ProductAddToCartWithAccountTest.java:29) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+2025-02-11 20:53:41 [CHROME-testAddToCartWithValidAccount-45] INFO  - Browser closed 
