@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Login Automation Test" parallel="tests" thread-count="2">
+<suite name="Cross-Browser Login Test" parallel="tests" thread-count="2">
     <test name="Login Tests - Chrome">
         <parameter name="browser" value="chrome" />
         <classes>
