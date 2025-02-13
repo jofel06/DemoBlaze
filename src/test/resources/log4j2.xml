@@ -14,7 +14,7 @@
             <Policies>
                 <TimeBasedTriggeringPolicy interval="1" modulate="true"/> <!-- interval of 1, meaning log files will be created every day -->
             </Policies>
-            <DefaultRolloverStrategy max="10"/> <!-- Keeps up to 7 previous logs -->
+            <DefaultRolloverStrategy max="10"/> <!-- Keeps up to 10 previous logs -->
         </RollingFile>
     </Appenders>
 
