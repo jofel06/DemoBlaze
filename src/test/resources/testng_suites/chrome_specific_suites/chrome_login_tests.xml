@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Chrome Browser Login Test">
+    <test name="Login Tests - Chrome browser only">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Tests.ValidLoginTest"/>
+            <class name="Tests.InvalidLoginTest"/>
+        </classes>
+    </test>
+</suite>

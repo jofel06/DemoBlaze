@@ -45,7 +45,7 @@ I used TestNG for the test Execution, then Log4j2 for Logging. This Automation F
 - **To run all Test using Maven Command:**
     - mvn test
 - **To run Specific Test Suite:**
-    - mvn test "-Dsurefire.suiteXmlFiles=src/test/resources/testng_suites/name_of_the_TestNGsuite.xml"
+    - mvn test "-Dsurefire.suiteXmlFiles=/path_to_testng_suites.xml"
   
 - **Using IDE:**
     - Right-click on the TestNG suite XML file and select Run.
