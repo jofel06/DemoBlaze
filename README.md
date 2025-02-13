@@ -27,8 +27,8 @@ I used TestNG for the test Execution, then Log4j2 for Logging. This Automation F
   
 - **2. Configure Browser Drivers:**
   - Ensure the browser drivers are set up in the system path or configured in the framework.
-    - **ChromeDriver:** Download here
-    - **EdgeDriver:** Download here
+    - **ChromeDriver:** [Download here](https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.98/win64/chromedriver-win64.zip)
+    - **EdgeDriver:** [Download here](https://msedgedriver.azureedge.net/133.0.3065.59/edgedriver_win64.zip)
   
 -  **3. Import the Project into Your IDE:**
     - Open your IDE and select Import Project.
