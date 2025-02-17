@@ -37,13 +37,13 @@ jobs:
       - name: Install dependencies using Maven
         run: mvn install
 
-      - name: Set up Chrome and Edge browsers
-        uses: shivammathur/setup-chrome@v4
+      - name: Set up Chrome browser
+        uses: shivammathur/setup-chrome@v2  # Using the latest supported version v2
         with:
           chrome-version: 'latest'
 
       - name: Set up Edge browser
-        uses: microsoft/setup-msbuild@v4
+        uses: microsoft/setup-msbuild@v1  # Using the latest supported version v1
         with:
           vs-version: 'latest'
           msbuild-version: 'latest'
