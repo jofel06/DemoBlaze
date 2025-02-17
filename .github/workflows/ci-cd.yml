@@ -3,7 +3,7 @@ name: CI/CD pipeline - DemoBlaze Automation Test
 on:
   push:
     branches:
-      - master
+      - '**'
   pull_request:
     branches:
       - master
@@ -26,7 +26,7 @@ jobs:
           java-version: '23'
 
       - name: Cache Maven dependencies
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: ~/.m2/repository
           key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
@@ -38,12 +38,12 @@ jobs:
         run: mvn install
 
       - name: Set up Chrome and Edge browsers
-        uses: shivammathur/setup-chrome@v2
+        uses: shivammathur/setup-chrome@v4
         with:
           chrome-version: 'latest'
 
       - name: Set up Edge browser
-        uses: microsoft/setup-msbuild@v1
+        uses: microsoft/setup-msbuild@v4
         with:
           vs-version: 'latest'
           msbuild-version: 'latest'
