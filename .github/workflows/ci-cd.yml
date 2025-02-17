@@ -45,8 +45,8 @@ jobs:
 
       - name: Setup ChromeDriver for Linux
         run: |
-          sudo chmod +x src/test/resources/Drivers/chromedriver
-          ls -l src/test/resources/Drivers/chromedriver 
+          sudo chmod +x src/test/resources/Drivers/linux/chromedriver
+          ls -l src/test/resources/Drivers/linux/chromedriver
 
       - name: Set up Edge browser
         uses: microsoft/setup-msbuild@v1 
@@ -56,8 +56,8 @@ jobs:
 
       - name: Setup EdgeDriver for Linux
         run: |
-          sudo chmod +x src/test/resources/Drivers/msedgedriver
-          ls -l src/test/resources/Drivers/msedgedriver
+          sudo chmod +x src/test/resources/Drivers/linux/msedgedriver
+          ls -l src/test/resources/Drivers/linux/msedgedriver
 
       - name: Run tests on ${{ matrix.browser }}
         run: mvn test -Dbrowser=${{ matrix.browser }} # Pass the browser as a system property to the test
