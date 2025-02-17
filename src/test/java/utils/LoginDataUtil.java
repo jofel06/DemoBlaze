@@ -37,11 +37,11 @@ public class LoginDataUtil {
 
     @DataProvider(name = "validLoginData")
     public static Object[][] getValidLoginData() throws IOException {
-        return getDataFromJson("C:\\Users\\Christian\\IdeaProjects\\DemoBlaze\\src\\test\\resources\\Test_Data\\validLoginCredentials.json");
+        return getDataFromJson("src/test/resources/test_data/validLoginCredentials.json");
     }
 
     @DataProvider(name = "invalidLoginData")
     public static Object[][] getInvalidLoginData() throws IOException {
-        return getDataFromJson("C:\\Users\\Christian\\IdeaProjects\\DemoBlaze\\src\\test\\resources\\Test_Data\\invalidLoginCredentials.json");
+        return getDataFromJson("src/test/resources/test_data/invalidLoginCredentials.json");
     }
 }

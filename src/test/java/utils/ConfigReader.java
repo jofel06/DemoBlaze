@@ -12,7 +12,7 @@ public class ConfigReader {
     public static Logger logger = LogManager.getLogger(ConfigReader.class);
 
     private static final Properties properties = new Properties();
-    private static final String Config_file_path = "C:\\Users\\Christian\\IdeaProjects\\DemoBlaze\\src\\test\\resources\\Properties\\config.properties";
+    private static final String Config_file_path = "src/test/resources/Properties/config.properties";
 
     static {
         try (FileInputStream inputStream = new FileInputStream(Config_file_path)) {
