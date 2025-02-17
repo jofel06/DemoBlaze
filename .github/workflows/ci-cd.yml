@@ -43,17 +43,28 @@ jobs:
         with:
           chrome-version: 'latest'
 
-      - name: Check ChromeDriver executable
-        run: ./src/test/resources/Drivers/chromedriver.exe --version
-      
+      - name: Install ChromeDriver for Linux
+        run: |
+          wget https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.98/linux64/chromedriver-linux64.zip
+          unzip chromedriver_linux64.zip
+          sudo mv chromedriver /usr/local/bin/
+
       - name: Set up Edge browser
         uses: microsoft/setup-msbuild@v1 
         with:
           vs-version: 'latest'
           msbuild-version: 'latest'
 
-      - name: Check EdgeDriver executable
-        run: ./src/test/resources/Drivers/msedgedriver.exe --version
+      - name: Install EdgeDriver for Linux
+        run: |
+          wget https://msedgedriver.azureedge.net/133.0.3065.69/edgedriver_linux64.zip
+          unzip edgedriver_linux64.zip
+          sudo mv msedgedriver /usr/local/bin/
+
+      - name: Install Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y wget unzip
 
       - name: Run tests on ${{ matrix.browser }}
         run: mvn test -Dbrowser=${{ matrix.browser }} # Pass the browser as a system property to the test
