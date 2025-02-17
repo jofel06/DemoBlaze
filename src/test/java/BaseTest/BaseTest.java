@@ -47,6 +47,9 @@ public class BaseTest {
             driver = new EdgeDriver();
             logger.info("Starting Test using Edge browser for Test: " + testName);
             }
+        else {
+            throw new IllegalArgumentException("Unsupported browser: " + browser);
+        }
         driver.manage().window().maximize();
 
 
