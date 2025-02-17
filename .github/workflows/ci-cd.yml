@@ -42,12 +42,18 @@ jobs:
         uses: browser-actions/setup-chrome@v1
         with:
           chrome-version: 'latest'
+
+      - name: Check ChromeDriver executable
+        run: ./src/test/resources/Drivers/chromedriver.exe --version
       
       - name: Set up Edge browser
         uses: microsoft/setup-msbuild@v1 
         with:
           vs-version: 'latest'
           msbuild-version: 'latest'
+
+      - name: Check EdgeDriver executable
+        run: ./src/test/resources/Drivers/msedgedriver.exe --version
 
       - name: Run tests on ${{ matrix.browser }}
         run: mvn test -Dbrowser=${{ matrix.browser }} # Pass the browser as a system property to the test
