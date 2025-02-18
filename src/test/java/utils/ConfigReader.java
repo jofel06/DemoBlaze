@@ -12,7 +12,7 @@ public class ConfigReader {
     public static Logger logger = LogManager.getLogger(ConfigReader.class);
 
     private static final Properties properties = new Properties();
-    private static final String Config_file_path = "C:\\Users\\Christian\\IdeaProjects\\DemoBlaze\\src\\test\\resources\\Properties\\config.properties";
+    private static final String Config_file_path = "src/test/resources/Properties/config.properties";
 
     static {
         try (FileInputStream inputStream = new FileInputStream(Config_file_path)) {
@@ -29,18 +29,23 @@ public class ConfigReader {
     //this gets the paths of the driver in the config.properties
     public static String getDriverPath(String browser) {
 
-        String driver_path = null;
+        String os = System.getProperty("os.name").toLowerCase();
 
         if (browser.equalsIgnoreCase("chrome")) {
-            driver_path = properties.getProperty("chrome.driver.path");
-        } else if (browser.equalsIgnoreCase("edge")) {
-            driver_path = properties.getProperty("edge.driver.path");
-        }
+            if (os.contains("win")){
+                return properties.getProperty("chrome.driver.win.path");
+            } else if (os.contains("nux")){
+                return properties.getProperty("chrome.driver.linux.path");
+            }
 
-        if (driver_path == null) {
-            logger.error("Driver path for {} is not provided.", browser);
-            throw new IllegalStateException("Driver path for " + browser + " is not provided.");
+        } else if (browser.equalsIgnoreCase("edge")) {
+            if (os.contains("win")){
+                return properties.getProperty("edge.driver.win.path");
+            } else if (os.contains("nux")) {
+                return properties.getProperty("edge.driver.linux.path");
+            }
+
         }
-        return driver_path;
+        throw new RuntimeException("Driver not configured for the operating system.");
     }
 }

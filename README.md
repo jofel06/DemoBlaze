@@ -38,9 +38,6 @@ I used TestNG for the test Execution, then Log4j2 for Logging. This Automation F
   - In the project root directory, run:
     - mvn clean install
 
-- Make sure to change the path of drivers and utils to its current path in your system
-
-
 **Running the Test**
 - **To run all Test using Maven Command:**
     - mvn test

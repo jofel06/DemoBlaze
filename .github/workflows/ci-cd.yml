@@ -26,28 +26,57 @@ jobs:
           java-version: '23'
           distribution: 'zulu'
 
+        # This step caches Maven dependencies to prevent downloading them every time the workflow runs.
       - name: Cache Maven dependencies
-        uses: actions/cache@v4
+        uses: actions/cache@v3
         with:
           path: ~/.m2/repository
-          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
+          key: Linux-maven-${{ hashFiles('**/pom.xml') }}
           restore-keys: |
-            ${{ runner.os }}-maven-
-        # This step caches Maven dependencies to prevent downloading them every time the workflow runs.
+            Linux-maven-
+        
 
       - name: Install dependencies using Maven
         run: mvn install
+
+        # Install required system dependencies for browsers
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libnss3 xvfb
+          sudo apt-get install -y wget gnupg ca-certificates
 
       - name: Set up Chrome browser
         uses: browser-actions/setup-chrome@v1
         with:
           chrome-version: 'latest'
-      
+
+      - name: Setup ChromeDriver for Linux
+        if: matrix.browser == 'chrome'
+        run: |
+            if [ -f src/test/resources/Drivers/linux/chromedriver ]; then
+              chmod +x src/test/resources/Drivers/linux/chromedriver
+              ls -l src/test/resources/Drivers/linux/chromedriver
+            else
+              echo "ChromeDriver not found!"
+              exit 1
+            fi
+
       - name: Set up Edge browser
-        uses: microsoft/setup-msbuild@v1 
-        with:
-          vs-version: 'latest'
-          msbuild-version: 'latest'
+        run: |
+          sudo apt update
+          sudo apt install -y microsoft-edge-stable
+
+      - name: Setup EdgeDriver for Linux
+        if: matrix.browser == 'edge'
+        run: |
+            if [ -f src/test/resources/Drivers/linux/msedgedriver ]; then
+              chmod +x src/test/resources/Drivers/linux/msedgedriver
+              ls -l src/test/resources/Drivers/linux/msedgedriver
+            else
+              echo "EdgeDriver not found!"
+              exit 1
+            fi
 
       - name: Run tests on ${{ matrix.browser }}
         run: mvn test -Dbrowser=${{ matrix.browser }} # Pass the browser as a system property to the test
