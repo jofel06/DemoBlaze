@@ -49,10 +49,9 @@ jobs:
           ls -l src/test/resources/Drivers/linux/chromedriver
 
       - name: Set up Edge browser
-        uses: microsoft/setup-msbuild@v1 
-        with:
-          vs-version: 'latest'
-          msbuild-version: 'latest'
+        run: |
+          sudo apt update
+          sudo apt install -y microsoft-edge-stable
 
       - name: Setup EdgeDriver for Linux
         run: |
