@@ -48,7 +48,7 @@ public class BaseTest {
             options.addArguments("--disable-gpu");
             options.addArguments("--window-size=1920,1080");
 
-            driver = new ChromeDriver();
+            driver = new ChromeDriver(options);
             logger.info("Starting test using Chrome browser for Test: " + testName);
             }
         else if (browser.equalsIgnoreCase("edge")){
@@ -59,7 +59,7 @@ public class BaseTest {
             options.addArguments("--disable-gpu");
             options.addArguments("--window-size=1920,1080");
 
-            driver = new EdgeDriver();
+            driver = new EdgeDriver(options);
             logger.info("Starting Test using Edge browser for Test: " + testName);
             }
         else {
