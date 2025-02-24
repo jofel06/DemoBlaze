@@ -59,7 +59,7 @@ jobs:
 
       # this generates Surefire report/XML reports in the target directory (path)
       - name: Publish Test Report (Surefire)
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: always()
         with:
           name: surefire-reports
