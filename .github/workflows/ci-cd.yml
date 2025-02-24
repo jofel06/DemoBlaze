@@ -50,6 +50,18 @@ jobs:
           chmod +x src/test/resources/Drivers/linux/chromedriver
           chmod +x src/test/resources/Drivers/linux/msedgedriver
 
+      - name: Verify Driver File Types
+        if: runner.os == 'Linux'
+        run: |
+          file src/test/resources/Drivers/linux/chromedriver
+          file src/test/resources/Drivers/linux/msedgedriver      
+
+      - name: Attempt Driver Version Output
+        if: runner.os == 'Linux'
+        run: |
+          src/test/resources/Drivers/linux/chromedriver --version
+          src/test/resources/Drivers/linux/msedgedriver --version
+
       - name: Run Chrome Tests
         run: mvn test -Dbrowser=chrome
 
