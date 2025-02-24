@@ -67,7 +67,7 @@ jobs:
 
       # This uploads the entire logs directory as an artifact to the GitHub Actions run and upload it to the Log path.
       - name: Publish Logs
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: always()
         with:
           name: test-logs
