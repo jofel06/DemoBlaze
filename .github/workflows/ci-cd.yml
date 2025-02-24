@@ -34,19 +34,15 @@ jobs:
 
       - name: Set up Chrome Headless
         run: |
-            sudo apt-get update
-            sudo apt-get install -y google-chrome-stable
-            mkdir -p /home/chrome
-            echo 'CHROME_BIN=/usr/bin/google-chrome' >> $GITHUB_ENV
-            echo 'CHROME_DRIVER_VERSION=$(curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE)' >> $GITHUB_ENV
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+          echo 'CHROME_BIN=/usr/bin/google-chrome' >> $GITHUB_ENV
 
       - name: Set up Edge Headless
         run: |
-            sudo apt-get update
-            sudo apt-get install -y microsoft-edge-stable
-            mkdir -p /home/edge
-            echo 'EDGE_BIN=/usr/bin/microsoft-edge' >> $GITHUB_ENV
-            echo 'EDGE_DRIVER_VERSION=$(curl -sS msedgedriver.azureedge.net/LATEST_STABLE)' >> $GITHUB_ENV
+          sudo apt-get update
+          sudo apt-get install -y microsoft-edge-stable
+          echo 'EDGE_BIN=/usr/bin/microsoft-edge' >> $GITHUB_ENV
 
       - name: Make Drivers Executable (Linux)
         if: runner.os == 'Linux'
@@ -54,8 +50,11 @@ jobs:
           chmod +x src/test/resources/Drivers/linux/chromedriver
           chmod +x src/test/resources/Drivers/linux/msedgedriver
 
-      - name: Run Tests
-        run: mvn test
+      - name: Run Chrome Tests
+        run: mvn test -Dbrowser=chrome
+
+      - name: Run Edge Tests
+        run: mvn test -Dbrowser=edge
 
       # this generates Surefire report/XML reports in the target directory (path)
       - name: Publish Test Report (Surefire)
