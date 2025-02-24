@@ -12,13 +12,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        browser: [chrome, edge]  # This run tests on Chrome and Edge in parallel
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - name: Set up Java JDK 23
         uses: actions/setup-java@v2
@@ -27,56 +22,52 @@ jobs:
           distribution: 'zulu'
 
         # This step caches Maven dependencies to prevent downloading them every time the workflow runs.
-      - name: Cache Maven dependencies
+      - name: Cache Maven packages
         uses: actions/cache@v3
         with:
-          path: ~/.m2/repository
-          key: Linux-maven-${{ hashFiles('**/pom.xml') }}
-          restore-keys: |
-            Linux-maven-
-        
+            path: ~/.m2
+            key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
+            restore-keys: ${{ runner.os }}-m2-
 
       - name: Install dependencies using Maven
-        run: mvn install
+        run: mvn clean install
 
-        # Install required system dependencies for browsers
-      - name: Install system dependencies
+      - name: Set up Chrome Headless
         run: |
           sudo apt-get update
-          sudo apt-get install -y libnss3 xvfb
-          sudo apt-get install -y wget gnupg ca-certificates
+          sudo apt-get install -y google-chrome-stable
+          echo 'CHROME_BIN=/usr/bin/google-chrome' >> $GITHUB_ENV
 
-      - name: Set up Chrome browser
-        uses: browser-actions/setup-chrome@v1
+      - name: Set up Edge Headless
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y microsoft-edge-stable
+          echo 'EDGE_BIN=/usr/bin/microsoft-edge' >> $GITHUB_ENV
+
+      - name: Make Drivers Executable (Linux)
+        if: runner.os == 'Linux'
+        run: |
+          chmod +x src/test/resources/Drivers/linux/chromedriver
+          chmod +x src/test/resources/Drivers/linux/msedgedriver
+
+      - name: Run Chrome Tests
+        run: mvn test -Dbrowser=chrome
+
+      - name: Run Edge Tests
+        run: mvn test -Dbrowser=edge
+
+      # this generates Surefire report/XML reports in the target directory (path)
+      - name: Publish Test Report (Surefire)
+        uses: actions/upload-artifact@v4
+        if: always()
         with:
-          chrome-version: 'latest'
+          name: surefire-reports
+          path: target/surefire-reports
 
-      - name: Setup ChromeDriver for Linux
-        if: matrix.browser == 'chrome'
-        run: |
-            if [ -f src/test/resources/Drivers/linux/chromedriver ]; then
-              chmod +x src/test/resources/Drivers/linux/chromedriver
-              ls -l src/test/resources/Drivers/linux/chromedriver
-            else
-              echo "ChromeDriver not found!"
-              exit 1
-            fi
-
-      - name: Set up Edge browser
-        run: |
-          sudo apt update
-          sudo apt install -y microsoft-edge-stable
-
-      - name: Setup EdgeDriver for Linux
-        if: matrix.browser == 'edge'
-        run: |
-            if [ -f src/test/resources/Drivers/linux/msedgedriver ]; then
-              chmod +x src/test/resources/Drivers/linux/msedgedriver
-              ls -l src/test/resources/Drivers/linux/msedgedriver
-            else
-              echo "EdgeDriver not found!"
-              exit 1
-            fi
-
-      - name: Run tests on ${{ matrix.browser }}
-        run: mvn test -Dbrowser=${{ matrix.browser }} # Pass the browser as a system property to the test
+      # This uploads the entire logs directory as an artifact to the GitHub Actions run and upload it to the Log path.
+      - name: Publish Logs
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: test-logs
+          path: logs

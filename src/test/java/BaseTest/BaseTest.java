@@ -8,7 +8,9 @@ import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.ThreadContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -21,7 +23,7 @@ public class BaseTest {
     public static final Logger logger = LogManager.getLogger(BaseTest.class);
     protected LoginPage loginPage;
     protected AddToCartPage addToCartPage;
-    public ProductsPage productsPage;
+    protected ProductsPage productsPage;
 
     @BeforeMethod
     @Parameters("browser")
@@ -39,12 +41,25 @@ public class BaseTest {
 
         if (browser.equalsIgnoreCase("chrome")){
             System.setProperty("webdriver.chrome.driver", driverPath);
-            driver = new ChromeDriver();
+
+            // Headless option setup
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--headless=new");
+            options.addArguments("--disable-gpu");
+            options.addArguments("--window-size=1920,1080");
+
+            driver = new ChromeDriver(options);
             logger.info("Starting test using Chrome browser for Test: " + testName);
             }
         else if (browser.equalsIgnoreCase("edge")){
             System.setProperty("webdriver.edge.driver", driverPath);
-            driver = new EdgeDriver();
+
+            EdgeOptions options = new EdgeOptions();
+            options.addArguments("--headless=new");
+            options.addArguments("--disable-gpu");
+            options.addArguments("--window-size=1920,1080");
+
+            driver = new EdgeDriver(options);
             logger.info("Starting Test using Edge browser for Test: " + testName);
             }
         else {

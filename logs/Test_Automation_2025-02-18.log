@@ -1,0 +1,232 @@
+2025-02-18 16:16:28 [CHROME-testLoginWithValidCredentials-51] INFO  - Starting test using Chrome browser for Test: testLoginWithValidCredentials
+2025-02-18 16:16:28 [EDGE-testLoginWithValidCredentials-52] INFO  - Starting Test using Edge browser for Test: testLoginWithValidCredentials
+2025-02-18 16:16:28 [CHROME-testLoginWithValidCredentials-51] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-18 16:16:28 [EDGE-testLoginWithValidCredentials-52] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-18 16:16:29 [EDGE-testLoginWithValidCredentials-52] INFO  - Navigating to the Login page
+2025-02-18 16:16:29 [CHROME-testLoginWithValidCredentials-51] INFO  - Navigating to the Login page
+2025-02-18 16:16:29 [EDGE-testLoginWithValidCredentials-52] INFO  - Entering a valid username
+2025-02-18 16:16:29 [CHROME-testLoginWithValidCredentials-51] INFO  - Entering a valid username
+2025-02-18 16:16:30 [CHROME-testLoginWithValidCredentials-51] INFO  - Entering a valid password
+2025-02-18 16:16:30 [EDGE-testLoginWithValidCredentials-52] INFO  - Entering a valid password
+2025-02-18 16:16:30 [EDGE-testLoginWithValidCredentials-52] INFO  - Clicking the Login button
+2025-02-18 16:16:30 [CHROME-testLoginWithValidCredentials-51] INFO  - Clicking the Login button
+2025-02-18 16:16:30 [CHROME-testLoginWithValidCredentials-51] INFO  - Login Successful
+2025-02-18 16:16:30 [EDGE-testLoginWithValidCredentials-52] INFO  - Login Successful
+2025-02-18 16:16:30 [CHROME-testLoginWithValidCredentials-51] INFO  - Browser closed 
+2025-02-18 16:16:31 [CHROME-testLoginWithValidCredentials-51] INFO  - Starting test using Chrome browser for Test: testLoginWithValidCredentials
+2025-02-18 16:16:31 [CHROME-testLoginWithValidCredentials-51] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-18 16:16:31 [EDGE-testLoginWithValidCredentials-52] INFO  - Browser closed 
+2025-02-18 16:16:32 [CHROME-testLoginWithValidCredentials-51] INFO  - Navigating to the Login page
+2025-02-18 16:16:32 [CHROME-testLoginWithValidCredentials-51] INFO  - Entering a valid username
+2025-02-18 16:16:32 [EDGE-testLoginWithValidCredentials-52] INFO  - Starting Test using Edge browser for Test: testLoginWithValidCredentials
+2025-02-18 16:16:32 [EDGE-testLoginWithValidCredentials-52] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-18 16:16:32 [CHROME-testLoginWithValidCredentials-51] INFO  - Entering a valid password
+2025-02-18 16:16:32 [CHROME-testLoginWithValidCredentials-51] INFO  - Clicking the Login button
+2025-02-18 16:16:32 [CHROME-testLoginWithValidCredentials-51] INFO  - Login Successful
+2025-02-18 16:16:33 [CHROME-testLoginWithValidCredentials-51] INFO  - Browser closed 
+2025-02-18 16:16:33 [EDGE-testLoginWithValidCredentials-52] INFO  - Navigating to the Login page
+2025-02-18 16:16:33 [EDGE-testLoginWithValidCredentials-52] INFO  - Entering a valid username
+2025-02-18 16:16:33 [CHROME-testLoginWithInvalidCredentials-51] INFO  - Starting test using Chrome browser for Test: testLoginWithInvalidCredentials
+2025-02-18 16:16:33 [CHROME-testLoginWithInvalidCredentials-51] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-18 16:16:33 [EDGE-testLoginWithValidCredentials-52] INFO  - Entering a valid password
+2025-02-18 16:16:33 [EDGE-testLoginWithValidCredentials-52] INFO  - Clicking the Login button
+2025-02-18 16:16:33 [EDGE-testLoginWithValidCredentials-52] INFO  - Login Successful
+2025-02-18 16:16:34 [CHROME-testLoginWithInvalidCredentials-51] INFO  - Navigating to the Login page
+2025-02-18 16:16:34 [CHROME-testLoginWithInvalidCredentials-51] INFO  - Entering an invalid username
+2025-02-18 16:16:35 [CHROME-testLoginWithInvalidCredentials-51] INFO  - Entering an invalid password
+2025-02-18 16:16:35 [EDGE-testLoginWithValidCredentials-52] INFO  - Browser closed 
+2025-02-18 16:16:35 [CHROME-testLoginWithInvalidCredentials-51] INFO  - Clicking the Login button
+2025-02-18 16:16:35 [CHROME-testLoginWithInvalidCredentials-51] INFO  - Login Failed, please enter a valid username or password
+2025-02-18 16:16:35 [EDGE-testLoginWithInvalidCredentials-52] INFO  - Starting Test using Edge browser for Test: testLoginWithInvalidCredentials
+2025-02-18 16:16:35 [EDGE-testLoginWithInvalidCredentials-52] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-18 16:16:36 [CHROME-testLoginWithInvalidCredentials-51] INFO  - Browser closed 
+2025-02-18 16:16:36 [EDGE-testLoginWithInvalidCredentials-52] INFO  - Navigating to the Login page
+2025-02-18 16:16:36 [CHROME-testLoginWithInvalidCredentials-51] INFO  - Starting test using Chrome browser for Test: testLoginWithInvalidCredentials
+2025-02-18 16:16:36 [CHROME-testLoginWithInvalidCredentials-51] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-18 16:16:36 [EDGE-testLoginWithInvalidCredentials-52] INFO  - Entering an invalid username
+2025-02-18 16:16:37 [EDGE-testLoginWithInvalidCredentials-52] INFO  - Entering an invalid password
+2025-02-18 16:16:37 [EDGE-testLoginWithInvalidCredentials-52] INFO  - Clicking the Login button
+2025-02-18 16:16:37 [CHROME-testLoginWithInvalidCredentials-51] INFO  - Navigating to the Login page
+2025-02-18 16:16:37 [CHROME-testLoginWithInvalidCredentials-51] INFO  - Entering an invalid username
+2025-02-18 16:16:38 [EDGE-testLoginWithInvalidCredentials-52] INFO  - Login Failed, please enter a valid username or password
+2025-02-18 16:16:38 [CHROME-testLoginWithInvalidCredentials-51] INFO  - Entering an invalid password
+2025-02-18 16:16:38 [CHROME-testLoginWithInvalidCredentials-51] INFO  - Clicking the Login button
+2025-02-18 16:16:38 [CHROME-testLoginWithInvalidCredentials-51] INFO  - Login Failed, please enter a valid username or password
+2025-02-18 16:16:39 [CHROME-testLoginWithInvalidCredentials-51] INFO  - Browser closed 
+2025-02-18 16:16:39 [EDGE-testLoginWithInvalidCredentials-52] INFO  - Browser closed 
+2025-02-18 16:16:39 [CHROME-testCartPageWithoutAccount-51] INFO  - Starting test using Chrome browser for Test: testCartPageWithoutAccount
+2025-02-18 16:16:39 [CHROME-testCartPageWithoutAccount-51] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-18 16:16:40 [EDGE-testLoginWithInvalidCredentials-52] INFO  - Starting Test using Edge browser for Test: testLoginWithInvalidCredentials
+2025-02-18 16:16:40 [EDGE-testLoginWithInvalidCredentials-52] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-18 16:16:40 [CHROME-testCartPageWithoutAccount-51] INFO  - Navigating to Cart Page
+2025-02-18 16:16:40 [EDGE-testLoginWithInvalidCredentials-52] INFO  - Navigating to the Login page
+2025-02-18 16:16:41 [EDGE-testLoginWithInvalidCredentials-52] INFO  - Entering an invalid username
+2025-02-18 16:16:41 [CHROME-testCartPageWithoutAccount-51] INFO  - Placing the Order
+2025-02-18 16:16:41 [CHROME-testCartPageWithoutAccount-51] INFO  - Entering the Name
+2025-02-18 16:16:41 [EDGE-testLoginWithInvalidCredentials-52] INFO  - Entering an invalid password
+2025-02-18 16:16:41 [EDGE-testLoginWithInvalidCredentials-52] INFO  - Clicking the Login button
+2025-02-18 16:16:41 [CHROME-testCartPageWithoutAccount-51] INFO  - Entering the Country
+2025-02-18 16:16:41 [CHROME-testCartPageWithoutAccount-51] INFO  - Entering the City
+2025-02-18 16:16:41 [CHROME-testCartPageWithoutAccount-51] INFO  - Entering the Credit Card Information
+2025-02-18 16:16:42 [CHROME-testCartPageWithoutAccount-51] INFO  - Entering the Month
+2025-02-18 16:16:42 [CHROME-testCartPageWithoutAccount-51] INFO  - Entering the Year
+2025-02-18 16:16:42 [CHROME-testCartPageWithoutAccount-51] INFO  - Clicking the Purchase Button
+2025-02-18 16:16:42 [CHROME-testCartPageWithoutAccount-51] INFO  - Purchase Completed
+2025-02-18 16:16:42 [EDGE-testLoginWithInvalidCredentials-52] INFO  - Login Failed, please enter a valid username or password
+2025-02-18 16:16:42 [CHROME-testCartPageWithoutAccount-51] INFO  - Browser closed 
+2025-02-18 16:16:43 [CHROME-testAddToCartWithValidAccount-51] INFO  - Starting test using Chrome browser for Test: testAddToCartWithValidAccount
+2025-02-18 16:16:43 [CHROME-testAddToCartWithValidAccount-51] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-18 16:16:43 [EDGE-testLoginWithInvalidCredentials-52] INFO  - Browser closed 
+2025-02-18 16:16:43 [CHROME-testAddToCartWithValidAccount-51] INFO  - Clicking the Login Page
+2025-02-18 16:16:44 [CHROME-testAddToCartWithValidAccount-51] INFO  - Entering a valid username
+2025-02-18 16:16:44 [EDGE-testCartPageWithoutAccount-52] INFO  - Starting Test using Edge browser for Test: testCartPageWithoutAccount
+2025-02-18 16:16:44 [EDGE-testCartPageWithoutAccount-52] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-18 16:16:44 [CHROME-testAddToCartWithValidAccount-51] INFO  - Entering a valid password
+2025-02-18 16:16:44 [CHROME-testAddToCartWithValidAccount-51] INFO  - Logging in
+2025-02-18 16:16:44 [CHROME-testAddToCartWithValidAccount-51] INFO  - Login was Successful
+2025-02-18 16:16:44 [CHROME-testAddToCartWithValidAccount-51] INFO  - Navigating to the Monitors Category
+2025-02-18 16:16:45 [EDGE-testCartPageWithoutAccount-52] INFO  - Navigating to Cart Page
+2025-02-18 16:16:45 [CHROME-testAddToCartWithValidAccount-51] INFO  - Selecting a Monitor Product
+2025-02-18 16:16:46 [EDGE-testCartPageWithoutAccount-52] INFO  - Placing the Order
+2025-02-18 16:16:46 [EDGE-testCartPageWithoutAccount-52] INFO  - Entering the Name
+2025-02-18 16:16:46 [EDGE-testCartPageWithoutAccount-52] INFO  - Entering the Country
+2025-02-18 16:16:46 [CHROME-testAddToCartWithValidAccount-51] INFO  - Adding the Item to cart
+2025-02-18 16:16:46 [EDGE-testCartPageWithoutAccount-52] INFO  - Entering the City
+2025-02-18 16:16:46 [EDGE-testCartPageWithoutAccount-52] INFO  - Entering the Credit Card Information
+2025-02-18 16:16:47 [EDGE-testCartPageWithoutAccount-52] INFO  - Entering the Month
+2025-02-18 16:16:47 [EDGE-testCartPageWithoutAccount-52] INFO  - Entering the Year
+2025-02-18 16:16:47 [EDGE-testCartPageWithoutAccount-52] INFO  - Clicking the Purchase Button
+2025-02-18 16:16:47 [EDGE-testCartPageWithoutAccount-52] INFO  - Purchase Completed
+2025-02-18 16:16:47 [CHROME-testAddToCartWithValidAccount-51] INFO  - Item successfully added to the cart
+2025-02-18 16:16:47 [CHROME-testAddToCartWithValidAccount-51] INFO  - Going back to Home Page
+2025-02-18 16:16:48 [CHROME-testAddToCartWithValidAccount-51] INFO  - Navigating to the Laptops Category
+2025-02-18 16:16:48 [CHROME-testAddToCartWithValidAccount-51] INFO  - Selecting a Laptop Product
+2025-02-18 16:16:48 [EDGE-testCartPageWithoutAccount-52] INFO  - Browser closed 
+2025-02-18 16:16:49 [EDGE-testAddToCartWithValidAccount-52] INFO  - Starting Test using Edge browser for Test: testAddToCartWithValidAccount
+2025-02-18 16:16:49 [EDGE-testAddToCartWithValidAccount-52] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-18 16:16:49 [CHROME-testAddToCartWithValidAccount-51] INFO  - Adding the Item to Cart
+2025-02-18 16:16:50 [EDGE-testAddToCartWithValidAccount-52] INFO  - Clicking the Login Page
+2025-02-18 16:16:50 [EDGE-testAddToCartWithValidAccount-52] INFO  - Entering a valid username
+2025-02-18 16:16:50 [CHROME-testAddToCartWithValidAccount-51] INFO  - Item successfully added to the cart
+2025-02-18 16:16:50 [CHROME-testAddToCartWithValidAccount-51] INFO  - Navigating to the cart page
+2025-02-18 16:16:50 [EDGE-testAddToCartWithValidAccount-52] INFO  - Entering a valid password
+2025-02-18 16:16:50 [EDGE-testAddToCartWithValidAccount-52] INFO  - Logging in
+2025-02-18 16:16:50 [EDGE-testAddToCartWithValidAccount-52] INFO  - Login was Successful
+2025-02-18 16:16:50 [EDGE-testAddToCartWithValidAccount-52] INFO  - Navigating to the Monitors Category
+2025-02-18 16:16:50 [CHROME-testAddToCartWithValidAccount-51] INFO  - Browser closed 
+2025-02-18 16:16:51 [CHROME-testAddToCartWithValidAccount-51] INFO  - Starting test using Chrome browser for Test: testAddToCartWithValidAccount
+2025-02-18 16:16:51 [CHROME-testAddToCartWithValidAccount-51] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-18 16:16:51 [EDGE-testAddToCartWithValidAccount-52] INFO  - Selecting a Monitor Product
+2025-02-18 16:16:52 [CHROME-testAddToCartWithValidAccount-51] INFO  - Clicking the Login Page
+2025-02-18 16:16:52 [CHROME-testAddToCartWithValidAccount-51] INFO  - Entering a valid username
+2025-02-18 16:16:53 [CHROME-testAddToCartWithValidAccount-51] INFO  - Entering a valid password
+2025-02-18 16:16:53 [CHROME-testAddToCartWithValidAccount-51] INFO  - Logging in
+2025-02-18 16:16:53 [CHROME-testAddToCartWithValidAccount-51] INFO  - Login was Successful
+2025-02-18 16:16:53 [CHROME-testAddToCartWithValidAccount-51] INFO  - Navigating to the Monitors Category
+2025-02-18 16:16:53 [EDGE-testAddToCartWithValidAccount-52] INFO  - Adding the Item to cart
+2025-02-18 16:16:54 [CHROME-testAddToCartWithValidAccount-51] INFO  - Selecting a Monitor Product
+2025-02-18 16:16:55 [CHROME-testAddToCartWithValidAccount-51] INFO  - Adding the Item to cart
+2025-02-18 16:16:55 [EDGE-testAddToCartWithValidAccount-52] INFO  - Item successfully added to the cart
+2025-02-18 16:16:55 [EDGE-testAddToCartWithValidAccount-52] INFO  - Going back to Home Page
+2025-02-18 16:16:56 [EDGE-testAddToCartWithValidAccount-52] INFO  - Navigating to the Laptops Category
+2025-02-18 16:16:56 [EDGE-testAddToCartWithValidAccount-52] INFO  - Selecting a Laptop Product
+2025-02-18 16:16:56 [CHROME-testAddToCartWithValidAccount-51] INFO  - Item successfully added to the cart
+2025-02-18 16:16:56 [CHROME-testAddToCartWithValidAccount-51] INFO  - Going back to Home Page
+2025-02-18 16:16:57 [CHROME-testAddToCartWithValidAccount-51] INFO  - Navigating to the Laptops Category
+2025-02-18 16:16:57 [CHROME-testAddToCartWithValidAccount-51] INFO  - Selecting a Laptop Product
+2025-02-18 16:16:57 [EDGE-testAddToCartWithValidAccount-52] INFO  - Adding the Item to Cart
+2025-02-18 16:16:57 [CHROME-testAddToCartWithValidAccount-51] INFO  - Adding the Item to Cart
+2025-02-18 16:16:58 [EDGE-testAddToCartWithValidAccount-52] INFO  - Item successfully added to the cart
+2025-02-18 16:16:58 [EDGE-testAddToCartWithValidAccount-52] INFO  - Navigating to the cart page
+2025-02-18 16:16:59 [CHROME-testAddToCartWithValidAccount-51] INFO  - Item successfully added to the cart
+2025-02-18 16:16:59 [CHROME-testAddToCartWithValidAccount-51] INFO  - Navigating to the cart page
+2025-02-18 16:16:59 [CHROME-testAddToCartWithValidAccount-51] INFO  - Browser closed 
+2025-02-18 16:17:00 [EDGE-testAddToCartWithValidAccount-52] INFO  - Browser closed 
+2025-02-18 16:17:00 [EDGE-testAddToCartWithValidAccount-52] INFO  - Starting Test using Edge browser for Test: testAddToCartWithValidAccount
+2025-02-18 16:17:00 [EDGE-testAddToCartWithValidAccount-52] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-18 16:17:01 [EDGE-testAddToCartWithValidAccount-52] INFO  - Clicking the Login Page
+2025-02-18 16:17:01 [EDGE-testAddToCartWithValidAccount-52] INFO  - Entering a valid username
+2025-02-18 16:17:02 [EDGE-testAddToCartWithValidAccount-52] INFO  - Entering a valid password
+2025-02-18 16:17:02 [EDGE-testAddToCartWithValidAccount-52] INFO  - Logging in
+2025-02-18 16:17:02 [EDGE-testAddToCartWithValidAccount-52] INFO  - Login was Successful
+2025-02-18 16:17:02 [EDGE-testAddToCartWithValidAccount-52] INFO  - Navigating to the Monitors Category
+2025-02-18 16:17:03 [EDGE-testAddToCartWithValidAccount-52] INFO  - Selecting a Monitor Product
+2025-02-18 16:17:04 [EDGE-testAddToCartWithValidAccount-52] INFO  - Adding the Item to cart
+2025-02-18 16:17:06 [EDGE-testAddToCartWithValidAccount-52] INFO  - Item successfully added to the cart
+2025-02-18 16:17:06 [EDGE-testAddToCartWithValidAccount-52] INFO  - Going back to Home Page
+2025-02-18 16:17:06 [EDGE-testAddToCartWithValidAccount-52] INFO  - Navigating to the Laptops Category
+2025-02-18 16:17:06 [EDGE-testAddToCartWithValidAccount-52] INFO  - Selecting a Laptop Product
+2025-02-18 16:17:07 [EDGE-testAddToCartWithValidAccount-52] INFO  - Adding the Item to Cart
+2025-02-18 16:17:08 [EDGE-testAddToCartWithValidAccount-52] INFO  - Item successfully added to the cart
+2025-02-18 16:17:08 [EDGE-testAddToCartWithValidAccount-52] INFO  - Navigating to the cart page
+2025-02-18 16:17:10 [EDGE-testAddToCartWithValidAccount-52] INFO  - Browser closed 
+2025-02-18 16:19:52 [main] INFO  - [TestNG] Running:
+  C:\Users\Christian\IdeaProjects\DemoBlaze\src\test\resources\testng_suites\chrome_specific_suites\chrome_login_tests.xml
+
+2025-02-18 16:19:53 [CHROME-testLoginWithValidCredentials-1] INFO  - Starting test using Chrome browser for Test: testLoginWithValidCredentials
+2025-02-18 16:19:53 [CHROME-testLoginWithValidCredentials-1] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-18 16:19:54 [CHROME-testLoginWithValidCredentials-1] INFO  - Navigating to the Login page
+2025-02-18 16:19:54 [CHROME-testLoginWithValidCredentials-1] INFO  - Entering a valid username
+2025-02-18 16:19:55 [CHROME-testLoginWithValidCredentials-1] INFO  - Entering a valid password
+2025-02-18 16:19:55 [CHROME-testLoginWithValidCredentials-1] INFO  - Clicking the Login button
+2025-02-18 16:19:55 [CHROME-testLoginWithValidCredentials-1] INFO  - Login Successful
+2025-02-18 16:19:55 [CHROME-testLoginWithValidCredentials-1] INFO  - Browser closed 
+2025-02-18 16:19:56 [CHROME-testLoginWithValidCredentials-1] INFO  - Starting test using Chrome browser for Test: testLoginWithValidCredentials
+2025-02-18 16:19:56 [CHROME-testLoginWithValidCredentials-1] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-18 16:19:57 [CHROME-testLoginWithValidCredentials-1] INFO  - Navigating to the Login page
+2025-02-18 16:19:57 [CHROME-testLoginWithValidCredentials-1] INFO  - Entering a valid username
+2025-02-18 16:19:58 [CHROME-testLoginWithValidCredentials-1] INFO  - Entering a valid password
+2025-02-18 16:19:58 [CHROME-testLoginWithValidCredentials-1] INFO  - Clicking the Login button
+2025-02-18 16:19:58 [CHROME-testLoginWithValidCredentials-1] INFO  - Login Successful
+2025-02-18 16:19:58 [CHROME-testLoginWithValidCredentials-1] INFO  - Browser closed 
+2025-02-18 16:19:58 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Starting test using Chrome browser for Test: testLoginWithInvalidCredentials
+2025-02-18 16:19:58 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-18 16:19:59 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Navigating to the Login page
+2025-02-18 16:19:59 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Entering an invalid username
+2025-02-18 16:20:00 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Entering an invalid password
+2025-02-18 16:20:00 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Clicking the Login button
+2025-02-18 16:20:01 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Login Failed, please enter a valid username or password
+2025-02-18 16:20:01 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Browser closed 
+2025-02-18 16:20:02 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Starting test using Chrome browser for Test: testLoginWithInvalidCredentials
+2025-02-18 16:20:02 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-18 16:20:02 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Navigating to the Login page
+2025-02-18 16:20:03 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Entering an invalid username
+2025-02-18 16:20:03 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Entering an invalid password
+2025-02-18 16:20:03 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Clicking the Login button
+2025-02-18 16:20:04 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Login Failed, please enter a valid username or password
+2025-02-18 16:20:04 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Browser closed 
+2025-02-18 16:22:35 [main] INFO  - [TestNG] Running:
+  C:\Users\Christian\IdeaProjects\DemoBlaze\src\test\resources\testng_suites\chrome_specific_suites\chrome_login_tests.xml
+
+2025-02-18 16:22:36 [CHROME-testLoginWithValidCredentials-1] INFO  - Starting test using Chrome browser for Test: testLoginWithValidCredentials
+2025-02-18 16:22:36 [CHROME-testLoginWithValidCredentials-1] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-18 16:22:37 [CHROME-testLoginWithValidCredentials-1] INFO  - Navigating to the Login page
+2025-02-18 16:22:37 [CHROME-testLoginWithValidCredentials-1] INFO  - Entering a valid username
+2025-02-18 16:22:38 [CHROME-testLoginWithValidCredentials-1] INFO  - Entering a valid password
+2025-02-18 16:22:38 [CHROME-testLoginWithValidCredentials-1] INFO  - Clicking the Login button
+2025-02-18 16:22:38 [CHROME-testLoginWithValidCredentials-1] INFO  - Login Successful
+2025-02-18 16:22:38 [CHROME-testLoginWithValidCredentials-1] INFO  - Browser closed 
+2025-02-18 16:22:39 [CHROME-testLoginWithValidCredentials-1] INFO  - Starting test using Chrome browser for Test: testLoginWithValidCredentials
+2025-02-18 16:22:39 [CHROME-testLoginWithValidCredentials-1] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-18 16:22:40 [CHROME-testLoginWithValidCredentials-1] INFO  - Navigating to the Login page
+2025-02-18 16:22:40 [CHROME-testLoginWithValidCredentials-1] INFO  - Entering a valid username
+2025-02-18 16:22:40 [CHROME-testLoginWithValidCredentials-1] INFO  - Entering a valid password
+2025-02-18 16:22:40 [CHROME-testLoginWithValidCredentials-1] INFO  - Clicking the Login button
+2025-02-18 16:22:40 [CHROME-testLoginWithValidCredentials-1] INFO  - Login Successful
+2025-02-18 16:22:41 [CHROME-testLoginWithValidCredentials-1] INFO  - Browser closed 
+2025-02-18 16:22:41 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Starting test using Chrome browser for Test: testLoginWithInvalidCredentials
+2025-02-18 16:22:41 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-18 16:22:42 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Navigating to the Login page
+2025-02-18 16:22:42 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Entering an invalid username
+2025-02-18 16:22:43 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Entering an invalid password
+2025-02-18 16:22:43 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Clicking the Login button
+2025-02-18 16:22:44 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Login Failed, please enter a valid username or password
+2025-02-18 16:22:44 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Browser closed 
+2025-02-18 16:22:45 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Starting test using Chrome browser for Test: testLoginWithInvalidCredentials
+2025-02-18 16:22:45 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-02-18 16:22:46 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Navigating to the Login page
+2025-02-18 16:22:46 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Entering an invalid username
+2025-02-18 16:22:46 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Entering an invalid password
+2025-02-18 16:22:46 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Clicking the Login button
+2025-02-18 16:22:47 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Login Failed, please enter a valid username or password
+2025-02-18 16:22:47 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Browser closed 
