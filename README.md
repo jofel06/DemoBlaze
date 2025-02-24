@@ -22,8 +22,8 @@ I used TestNG for the test Execution, then Log4j2 for Logging. This Automation F
 
 **Installation Guide**
 - **1. Clone the Repository:**
-    - git clone https://github.com/your-username/your-repo-name.git
-    - cd your-repo-name
+    - git clone https://github.com/your-username/https://github.com/jofel06/DemoBlaze
+    - cd 
   
 - **2. Configure Browser Drivers:**
   - Ensure the browser drivers are set up in the system path or configured in the framework.
