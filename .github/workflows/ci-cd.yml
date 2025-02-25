@@ -29,6 +29,16 @@ jobs:
             key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
             restore-keys: ${{ runner.os }}-m2-
 
+      - name: Debug Drivers Path
+        run: |
+          ls -l src/test/resources/Drivers/linux/
+
+      - name: Make Drivers Executable (Linux)
+        if: runner.os == 'Linux'
+        run: |
+          chmod +x src/test/resources/Drivers/linux/chromedriver
+          chmod +x src/test/resources/Drivers/linux/msedgedriver
+
       - name: Install dependencies using Maven
         run: mvn clean install
 
@@ -43,12 +53,6 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y microsoft-edge-stable
           echo 'EDGE_BIN=/usr/bin/microsoft-edge' >> $GITHUB_ENV
-
-      - name: Make Drivers Executable (Linux)
-        if: runner.os == 'Linux'
-        run: |
-          chmod +x src/test/resources/Drivers/linux/chromedriver
-          chmod +x src/test/resources/Drivers/linux/msedgedriver
 
       - name: Run Chrome Tests
         run: mvn test -Dbrowser=chrome
