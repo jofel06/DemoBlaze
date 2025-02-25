@@ -54,6 +54,9 @@ jobs:
           wget https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-stable/microsoft-edge-stable_133.0.3065.82-1_amd64.deb
           sudo apt install -y ./microsoft-edge-stable_133.0.3065.82-1_amd64.deb
           echo 'EDGE_BIN=/usr/bin/microsoft-edge' >> $GITHUB_ENV
+          
+      - name: Check Microsoft Edge Version
+        run: microsoft-edge --version
 
       - name: Run Chrome Tests
         run: mvn test -Dbrowser=chrome
