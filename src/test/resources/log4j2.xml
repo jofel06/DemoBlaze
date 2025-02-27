@@ -8,8 +8,8 @@
         </Console>
 
         <!-- File Appender -->
-        <RollingFile name="FileLogger" fileName="logs/Test_Automation_${date:yyyy-MM-dd}.log"
-                     filePattern="logs/Test_Automation_%d{yyyy-MM-dd}_%i.log.gz"> <!--defines the naming convention for the archived log files after rotation.-->
+        <RollingFile name="FileLogger" fileName="logs/Test_Automation.log"
+                     filePattern="logs/Test_Automation_%d{yyyy-MM-dd-HH-mm-ss}.log.gz">  <!--defines the naming convention for the archived log files after rotation.-->
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level - %msg%n"/>
             <Policies>
                 <TimeBasedTriggeringPolicy interval="1" modulate="true"/> <!-- interval of 1, meaning log files will be created every day -->
