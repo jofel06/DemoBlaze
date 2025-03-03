@@ -1,32 +1,32 @@
-2025-02-27 14:44:38 [CHROME-testLoginWithValidCredentials-1] INFO  - Starting test using Chrome browser for Test: testLoginWithValidCredentials
-2025-02-27 14:44:38 [CHROME-testLoginWithValidCredentials-1] INFO  - Navigating to base URL: https://www.demoblaze.com/
-2025-02-27 14:44:39 [CHROME-testLoginWithValidCredentials-1] INFO  - Navigating to the Login page
-2025-02-27 14:44:39 [CHROME-testLoginWithValidCredentials-1] INFO  - Entering a valid username
-2025-02-27 14:44:40 [CHROME-testLoginWithValidCredentials-1] INFO  - Entering a valid password
-2025-02-27 14:44:40 [CHROME-testLoginWithValidCredentials-1] INFO  - Clicking the Login button
-2025-02-27 14:44:40 [CHROME-testLoginWithValidCredentials-1] INFO  - Login Successful
-2025-02-27 14:44:40 [CHROME-testLoginWithValidCredentials-1] INFO  - Browser closed 
-2025-02-27 14:44:41 [CHROME-testLoginWithValidCredentials-1] INFO  - Starting test using Chrome browser for Test: testLoginWithValidCredentials
-2025-02-27 14:44:41 [CHROME-testLoginWithValidCredentials-1] INFO  - Navigating to base URL: https://www.demoblaze.com/
-2025-02-27 14:44:41 [CHROME-testLoginWithValidCredentials-1] INFO  - Navigating to the Login page
-2025-02-27 14:44:42 [CHROME-testLoginWithValidCredentials-1] INFO  - Entering a valid username
-2025-02-27 14:44:42 [CHROME-testLoginWithValidCredentials-1] INFO  - Entering a valid password
-2025-02-27 14:44:42 [CHROME-testLoginWithValidCredentials-1] INFO  - Clicking the Login button
-2025-02-27 14:44:42 [CHROME-testLoginWithValidCredentials-1] INFO  - Login Successful
-2025-02-27 14:44:42 [CHROME-testLoginWithValidCredentials-1] INFO  - Browser closed 
-2025-02-27 14:44:43 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Starting test using Chrome browser for Test: testLoginWithInvalidCredentials
-2025-02-27 14:44:43 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Navigating to base URL: https://www.demoblaze.com/
-2025-02-27 14:44:44 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Navigating to the Login page
-2025-02-27 14:44:44 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Entering an invalid username
-2025-02-27 14:44:45 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Entering an invalid password
-2025-02-27 14:44:45 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Clicking the Login button
-2025-02-27 14:44:45 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Login Failed, please enter a valid username or password
-2025-02-27 14:44:45 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Browser closed 
-2025-02-27 14:44:46 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Starting test using Chrome browser for Test: testLoginWithInvalidCredentials
-2025-02-27 14:44:46 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Navigating to base URL: https://www.demoblaze.com/
-2025-02-27 14:44:47 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Navigating to the Login page
-2025-02-27 14:44:47 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Entering an invalid username
-2025-02-27 14:44:48 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Entering an invalid password
-2025-02-27 14:44:48 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Clicking the Login button
-2025-02-27 14:44:48 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Login Failed, please enter a valid username or password
-2025-02-27 14:44:48 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Browser closed 
+2025-03-03 18:08:51 [CHROME-testLoginWithValidCredentials-1] INFO  - Starting test using Chrome browser for Test: testLoginWithValidCredentials
+2025-03-03 18:08:51 [CHROME-testLoginWithValidCredentials-1] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-03-03 18:08:52 [CHROME-testLoginWithValidCredentials-1] INFO  - Navigating to the Login page
+2025-03-03 18:08:52 [CHROME-testLoginWithValidCredentials-1] INFO  - Entering a valid username
+2025-03-03 18:08:53 [CHROME-testLoginWithValidCredentials-1] INFO  - Entering a valid password
+2025-03-03 18:08:53 [CHROME-testLoginWithValidCredentials-1] INFO  - Clicking the Login button
+2025-03-03 18:08:53 [CHROME-testLoginWithValidCredentials-1] INFO  - Login Successful
+2025-03-03 18:08:53 [CHROME-testLoginWithValidCredentials-1] INFO  - Browser closed 
+2025-03-03 18:08:54 [CHROME-testLoginWithValidCredentials-1] INFO  - Starting test using Chrome browser for Test: testLoginWithValidCredentials
+2025-03-03 18:08:54 [CHROME-testLoginWithValidCredentials-1] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-03-03 18:08:54 [CHROME-testLoginWithValidCredentials-1] INFO  - Navigating to the Login page
+2025-03-03 18:08:54 [CHROME-testLoginWithValidCredentials-1] INFO  - Entering a valid username
+2025-03-03 18:08:55 [CHROME-testLoginWithValidCredentials-1] INFO  - Entering a valid password
+2025-03-03 18:08:55 [CHROME-testLoginWithValidCredentials-1] INFO  - Clicking the Login button
+2025-03-03 18:08:55 [CHROME-testLoginWithValidCredentials-1] INFO  - Login Successful
+2025-03-03 18:08:55 [CHROME-testLoginWithValidCredentials-1] INFO  - Browser closed 
+2025-03-03 18:08:56 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Starting test using Chrome browser for Test: testLoginWithInvalidCredentials
+2025-03-03 18:08:56 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-03-03 18:08:57 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Navigating to the Login page
+2025-03-03 18:08:57 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Entering an invalid username
+2025-03-03 18:08:57 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Entering an invalid password
+2025-03-03 18:08:57 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Clicking the Login button
+2025-03-03 18:08:58 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Login Failed, please enter a valid username or password
+2025-03-03 18:08:58 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Browser closed 
+2025-03-03 18:08:59 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Starting test using Chrome browser for Test: testLoginWithInvalidCredentials
+2025-03-03 18:08:59 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-03-03 18:08:59 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Navigating to the Login page
+2025-03-03 18:09:00 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Entering an invalid username
+2025-03-03 18:09:00 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Entering an invalid password
+2025-03-03 18:09:00 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Clicking the Login button
+2025-03-03 18:09:01 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Login Failed, please enter a valid username or password
+2025-03-03 18:09:01 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Browser closed 
