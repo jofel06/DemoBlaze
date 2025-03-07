@@ -40,9 +40,10 @@ jobs:
           chmod +x src/test/resources/Drivers/linux/msedgedriver
 
       - name: Set up Chrome Headless
-        uses: browser-actions/setup-chrome@v1
-        with:
-          chrome-version: 'latest'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+          echo 'CHROME_BIN=/usr/bin/google-chrome' >> $GITHUB_ENV
 
       - name: Set up Edge Headless
         run: |
