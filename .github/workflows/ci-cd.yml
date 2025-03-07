@@ -39,20 +39,10 @@ jobs:
           chmod +x src/test/resources/Drivers/linux/chromedriver
           chmod +x src/test/resources/Drivers/linux/msedgedriver
 
-      - name: Remove old Chrome versions
-        run: |
-          sudo apt-get remove -y google-chrome-stable || true
-          sudo rm -rf /usr/bin/google-chrome || true
-          sudo rm -rf /opt/google/chrome || true
-
       - name: Set up Chrome Headless
-        run: |
-          sudo apt-get update
-          wget https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.35/linux64/chrome-linux64.zip -O chrome.zip
-          unzip chrome.zip -d chrome-files
-          sudo mv chrome-files/chrome-linux64 /opt/google-chrome
-          sudo ln -sf /opt/google-chrome/chrome /usr/bin/google-chrome
-          echo 'CHROME_BIN=/usr/bin/google-chrome' >> $GITHUB_ENV
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: 'latest'
 
       - name: Set up Edge Headless
         run: |
