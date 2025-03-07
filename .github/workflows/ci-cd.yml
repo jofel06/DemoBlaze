@@ -39,13 +39,12 @@ jobs:
           chmod +x src/test/resources/Drivers/linux/chromedriver
           chmod +x src/test/resources/Drivers/linux/msedgedriver
 
-      - name: Set up Chrome Headless
+      - name: Install Google Chrome
         run: |
-          sudo apt-get update
-          sudo apt-get install -y google-chrome-stable
-          echo 'CHROME_BIN=/usr/bin/google-chrome' >> $GITHUB_ENV
+          wget -q -O google-chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+          sudo dpkg -i google-chrome.deb || sudo apt-get install -f -y
 
-      - name: Set up Edge Headless
+      - name: Install Microsoft Edge
         run: |
           sudo apt-get update
           wget https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-stable/microsoft-edge-stable_134.0.3124.51-1_amd64.deb
