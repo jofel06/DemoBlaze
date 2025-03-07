@@ -52,6 +52,9 @@ jobs:
           sudo apt install -y ./microsoft-edge-stable_134.0.3124.51-1_amd64.deb
           echo 'EDGE_BIN=/usr/bin/microsoft-edge' >> $GITHUB_ENV
 
+      - name: Check Google Chrome version
+        run: google-chrome --version
+        
       - name: Check Microsoft Edge Version
         run: microsoft-edge --version
 
