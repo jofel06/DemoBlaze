@@ -65,8 +65,6 @@ public class BaseTest {
         else {
             throw new IllegalArgumentException("Unsupported browser: " + browser);
         }
-        driver.manage().window().maximize();
-
 
         loginPage = new LoginPage(driver);
         addToCartPage = new AddToCartPage(driver);
