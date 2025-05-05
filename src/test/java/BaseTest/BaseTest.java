@@ -16,8 +16,6 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import utils.ConfigReader;
-
-import java.nio.file.Path;
 import java.util.UUID;
 
 public class BaseTest {
@@ -27,7 +25,6 @@ public class BaseTest {
     protected LoginPage loginPage;
     protected AddToCartPage addToCartPage;
     protected ProductsPage productsPage;
-    private Path tempDir;
 
     @BeforeMethod
     @Parameters("browser")
@@ -54,7 +51,7 @@ public class BaseTest {
 
             // Set a unique temporary user data directory for each Chrome session.
             // This prevents the "user data directory already in use" error in Docker,
-            options.addArguments("--user-data-dir=" + tempDir.toString());
+            options.addArguments("--user-data-dir=/tmp/chrome-" + UUID.randomUUID());
 
             driver = new ChromeDriver(options);
             logger.info("Starting test using Chrome browser for Test: " + testName);
@@ -69,7 +66,7 @@ public class BaseTest {
 
             // Set a unique temporary user data directory for each Chrome session.
             // This prevents the "user data directory already in use" error in Docker,
-            options.addArguments("--user-data-dir=" + tempDir.toString());
+            options.addArguments("--user-data-dir=/tmp/chrome-" + UUID.randomUUID());
 
 
             driver = new EdgeDriver(options);
