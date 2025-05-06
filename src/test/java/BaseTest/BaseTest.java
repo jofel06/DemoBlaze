@@ -47,8 +47,10 @@ public class BaseTest {
             options.addArguments("--headless=new");
             options.addArguments("--disable-gpu");
             options.addArguments("--window-size=1920,1080");
+            options.addArguments("--no-sandbox"); //Disables Chrome's built-in security sandbox
+            options.addArguments("--disable-dev-shm-usage"); //Tells Chrome not to use /dev/shm (shared memory) and use /tmp instead.
             // Set a unique temporary user data directory for each Chrome session, prevents the "user data directory already in use error".
-            //options.addArguments("--user-data-dir=/tmp/chrome-user-data-" + UUID.randomUUID());
+            options.addArguments("--user-data-dir=/tmp/chrome-user-data-" + UUID.randomUUID());
             driver = new ChromeDriver(options);
             logger.info("Starting test using Chrome browser for Test: " + testName);
             }
@@ -58,8 +60,10 @@ public class BaseTest {
             options.addArguments("--headless=new");
             options.addArguments("--disable-gpu");
             options.addArguments("--window-size=1920,1080");
+            options.addArguments("--no-sandbox");
+            options.addArguments("--disable-dev-shm-usage");
             // Set a unique temporary user data directory for each Chrome session, prevents the "user data directory already in use error".
-            //options.addArguments("--user-data-dir=/tmp/chrome-user-data-" + UUID.randomUUID());
+            options.addArguments("--user-data-dir=/tmp/chrome-user-data-" + UUID.randomUUID());
             driver = new EdgeDriver(options);
             logger.info("Starting Test using Edge browser for Test: " + testName);
             }

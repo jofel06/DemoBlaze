@@ -4,6 +4,7 @@ FROM maven:3.9.6-eclipse-temurin-21
 # Set working directory
 WORKDIR /app
 
+# install chrome browser
 RUN apt-get update && apt-get install -y wget unzip && \
     wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && \
     apt install -y ./google-chrome-stable_current_amd64.deb && \

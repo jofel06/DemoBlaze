@@ -29,15 +29,15 @@ jobs:
             key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
             restore-keys: ${{ runner.os }}-m2-
 
-      - name: Debug Drivers Path
-        run: |
-          ls -l src/test/resources/Drivers/linux/
+      #- name: Debug Drivers Path
+      #  run: |
+      #    ls -l src/test/resources/Drivers/linux/
 
-      - name: Make Drivers Executable (Linux)
-        if: runner.os == 'Linux'
-        run: |
-          chmod +x src/test/resources/Drivers/linux/chromedriver
-          chmod +x src/test/resources/Drivers/linux/msedgedriver
+      #- name: Make Drivers Executable (Linux)
+      #  if: runner.os == 'Linux'
+      #  run: |
+      #    chmod +x src/test/resources/Drivers/linux/chromedriver
+      #    chmod +x src/test/resources/Drivers/linux/msedgedriver
 
       - name: Install Google Chrome
         run: |

@@ -709,3 +709,43 @@ Session ID: 5b4c74a25f0c5ab1fc7ce7f5ebd233c2
 2025-05-06 16:03:46 [EDGE-testAddToCartWithValidAccount-50] INFO  - Item successfully added to the cart
 2025-05-06 16:03:46 [EDGE-testAddToCartWithValidAccount-50] INFO  - Navigating to the cart page
 2025-05-06 16:03:48 [EDGE-testAddToCartWithValidAccount-50] INFO  - Browser closed 
+2025-05-06 17:29:33 [CHROME-testLoginWithValidCredentials-1] INFO  - Using chromedriver 136.0.7103.49 (resolved driver for Chrome 136)
+2025-05-06 17:29:33 [CHROME-testLoginWithValidCredentials-1] INFO  - Exporting webdriver.chrome.driver as C:\Users\Christian\.cache\selenium\chromedriver\win64\136.0.7103.49\chromedriver.exe
+2025-05-06 17:29:34 [CHROME-testLoginWithValidCredentials-1] INFO  - Starting test using Chrome browser for Test: testLoginWithValidCredentials
+2025-05-06 17:29:34 [CHROME-testLoginWithValidCredentials-1] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-05-06 17:29:35 [CHROME-testLoginWithValidCredentials-1] INFO  - Navigating to the Login page
+2025-05-06 17:29:35 [CHROME-testLoginWithValidCredentials-1] INFO  - Entering a valid username
+2025-05-06 17:29:36 [CHROME-testLoginWithValidCredentials-1] INFO  - Entering a valid password
+2025-05-06 17:29:36 [CHROME-testLoginWithValidCredentials-1] INFO  - Clicking the Login button
+2025-05-06 17:29:36 [CHROME-testLoginWithValidCredentials-1] INFO  - Login Successful
+2025-05-06 17:29:36 [CHROME-testLoginWithValidCredentials-1] INFO  - Browser closed 
+2025-05-06 17:29:36 [CHROME-testLoginWithValidCredentials-1] INFO  - Using chromedriver 136.0.7103.49 (resolved driver for Chrome 136)
+2025-05-06 17:29:36 [CHROME-testLoginWithValidCredentials-1] INFO  - Exporting webdriver.chrome.driver as C:\Users\Christian\.cache\selenium\chromedriver\win64\136.0.7103.49\chromedriver.exe
+2025-05-06 17:29:37 [CHROME-testLoginWithValidCredentials-1] INFO  - Starting test using Chrome browser for Test: testLoginWithValidCredentials
+2025-05-06 17:29:37 [CHROME-testLoginWithValidCredentials-1] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-05-06 17:29:38 [CHROME-testLoginWithValidCredentials-1] INFO  - Navigating to the Login page
+2025-05-06 17:29:38 [CHROME-testLoginWithValidCredentials-1] INFO  - Entering a valid username
+2025-05-06 17:29:38 [CHROME-testLoginWithValidCredentials-1] INFO  - Entering a valid password
+2025-05-06 17:29:38 [CHROME-testLoginWithValidCredentials-1] INFO  - Clicking the Login button
+2025-05-06 17:29:39 [CHROME-testLoginWithValidCredentials-1] INFO  - Login Successful
+2025-05-06 17:29:39 [CHROME-testLoginWithValidCredentials-1] INFO  - Browser closed 
+2025-05-06 17:29:39 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Using chromedriver 136.0.7103.49 (resolved driver for Chrome 136)
+2025-05-06 17:29:39 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Exporting webdriver.chrome.driver as C:\Users\Christian\.cache\selenium\chromedriver\win64\136.0.7103.49\chromedriver.exe
+2025-05-06 17:29:39 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Starting test using Chrome browser for Test: testLoginWithInvalidCredentials
+2025-05-06 17:29:39 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-05-06 17:29:40 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Navigating to the Login page
+2025-05-06 17:29:40 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Entering an invalid username
+2025-05-06 17:29:41 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Entering an invalid password
+2025-05-06 17:29:41 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Clicking the Login button
+2025-05-06 17:29:42 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Login Failed, please enter a valid username or password
+2025-05-06 17:29:42 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Browser closed 
+2025-05-06 17:29:42 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Using chromedriver 136.0.7103.49 (resolved driver for Chrome 136)
+2025-05-06 17:29:42 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Exporting webdriver.chrome.driver as C:\Users\Christian\.cache\selenium\chromedriver\win64\136.0.7103.49\chromedriver.exe
+2025-05-06 17:29:43 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Starting test using Chrome browser for Test: testLoginWithInvalidCredentials
+2025-05-06 17:29:43 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Navigating to base URL: https://www.demoblaze.com/
+2025-05-06 17:29:44 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Navigating to the Login page
+2025-05-06 17:29:44 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Entering an invalid username
+2025-05-06 17:29:44 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Entering an invalid password
+2025-05-06 17:29:44 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Clicking the Login button
+2025-05-06 17:29:45 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Login Failed, please enter a valid username or password
+2025-05-06 17:29:45 [CHROME-testLoginWithInvalidCredentials-1] INFO  - Browser closed 
