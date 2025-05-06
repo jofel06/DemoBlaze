@@ -26,7 +26,7 @@ public class ConfigReader {
         return properties.getProperty("base.url");
     }
 
-    //this gets the paths of the driver in the config.properties
+    /*this gets the paths of the driver in the config.properties
     public static String getDriverPath(String browser) {
 
         String os = System.getProperty("os.name").toLowerCase();
@@ -47,5 +47,5 @@ public class ConfigReader {
 
         }
         throw new RuntimeException("Driver not configured for the operating system.");
-    }
+    }*/
 }

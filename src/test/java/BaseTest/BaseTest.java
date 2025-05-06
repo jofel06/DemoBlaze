@@ -3,6 +3,7 @@ package BaseTest;
 import Page_Objects.AddToCartPage;
 import Page_Objects.LoginPage;
 import Page_Objects.ProductsPage;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.ThreadContext;
@@ -38,37 +39,27 @@ public class BaseTest {
         Thread.currentThread().setName(threadName); // Override actual thread name
 
         baseURl = ConfigReader.getBaseUrl(); //this loads the properties (base URL)
-        String driverPath = ConfigReader.getDriverPath(browser); // this gets the correct driver path from config.properties
+        //String driverPath = ConfigReader.getDriverPath(browser); // this gets the correct driver path from config.properties
 
         if (browser.equalsIgnoreCase("chrome")){
-            System.setProperty("webdriver.chrome.driver", driverPath);
-
-            // Headless option setup
+            WebDriverManager.chromedriver().setup();
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--headless=new");
             options.addArguments("--disable-gpu");
             options.addArguments("--window-size=1920,1080");
-
-            // Set a unique temporary user data directory for each Chrome session.
-            // This prevents the "user data directory already in use" error in Docker,
-            options.addArguments("--user-data-dir=/tmp/chrome-" + UUID.randomUUID());
-
+            // Set a unique temporary user data directory for each Chrome session, prevents the "user data directory already in use error".
+            //options.addArguments("--user-data-dir=/tmp/chrome-user-data-" + UUID.randomUUID());
             driver = new ChromeDriver(options);
             logger.info("Starting test using Chrome browser for Test: " + testName);
             }
         else if (browser.equalsIgnoreCase("edge")){
-            System.setProperty("webdriver.edge.driver", driverPath);
-
+            WebDriverManager.edgedriver().setup();
             EdgeOptions options = new EdgeOptions();
             options.addArguments("--headless=new");
             options.addArguments("--disable-gpu");
             options.addArguments("--window-size=1920,1080");
-
-            // Set a unique temporary user data directory for each Chrome session.
-            // This prevents the "user data directory already in use" error in Docker,
-            options.addArguments("--user-data-dir=/tmp/chrome-" + UUID.randomUUID());
-
-
+            // Set a unique temporary user data directory for each Chrome session, prevents the "user data directory already in use error".
+            //options.addArguments("--user-data-dir=/tmp/chrome-user-data-" + UUID.randomUUID());
             driver = new EdgeDriver(options);
             logger.info("Starting Test using Edge browser for Test: " + testName);
             }
@@ -79,8 +70,6 @@ public class BaseTest {
         loginPage = new LoginPage(driver);
         addToCartPage = new AddToCartPage(driver);
         productsPage = new ProductsPage(driver);
-
-
         logger.info("Navigating to base URL: " + baseURl);
         driver.get(baseURl);  // This will open the URL in the browser
 
