@@ -16,7 +16,6 @@ COPY . .
 
 # Compile
 RUN mvn clean compile
-#RUN mkdir -p /app/tmp
 
 # Now define the test command to run **when the container is executed**
 CMD ["mvn", "test", "-Dsurefire.suiteXmlFiles=src/test/resources/testng_suites/chrome_specific_suites/chrome_login_tests.xml"]
