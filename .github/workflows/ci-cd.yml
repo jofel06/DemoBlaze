@@ -1,9 +1,9 @@
 name: CI/CD pipeline - DemoBlaze Automation Test
 
 on:
-  push:
-    branches:
-      - '**'
+  #push:
+  #  branches:
+  #    - '**'
   pull_request:
     branches:
       - master
@@ -47,8 +47,11 @@ jobs:
       - name: Install Microsoft Edge
         run: |
           sudo apt-get update
-          wget https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-stable/microsoft-edge-stable_136.0.3240.50-1_amd64.deb
-          sudo apt install -y ./microsoft-edge-stable_136.0.3240.50-1_amd64.deb
+          sudo apt-get install -y software-properties-common
+          curl -fsSL https://packages.microsoft.com/keys/microsoft.asc | sudo gpg --dearmor -o /usr/share/keyrings/microsoft.gpg
+          echo "deb [arch=amd64 signed-by=/usr/share/keyrings/microsoft.gpg] https://packages.microsoft.com/repos/edge stable main" | sudo tee /etc/apt/sources.list.d/microsoft-edge.list
+          sudo apt-get update
+          sudo apt-get install -y microsoft-edge-stable
           echo 'EDGE_BIN=/usr/bin/microsoft-edge' >> $GITHUB_ENV
 
       - name: Check Google Chrome version
