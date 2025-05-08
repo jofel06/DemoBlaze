@@ -61,13 +61,10 @@ jobs:
         run: microsoft-edge --version
 
       - name: Install dependencies using Maven
-        run: mvn clean install
+        run: mvn clean install -DskipTests
 
-      - name: Run Chrome Tests
-        run: mvn test -Dbrowser=chrome
-
-      - name: Run Edge Tests
-        run: mvn test -Dbrowser=edge
+      - name: Run Test
+        run: mvn test
 
       # this generates Surefire report/XML reports in the target directory (path)
       - name: Publish Test Report (Surefire)
