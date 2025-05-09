@@ -108,9 +108,9 @@ jobs:
       # build, run and stop the test once it is done
       - name: Run Regression test using RegressionTest-Compose
         run: |
-          docker-compose -f docker-compose.yml up --build --abort-on-container-exit 
+          docker compose -f docker-compose.yml up --build --abort-on-container-exit 
 
       # Tear down the Docker containers (cleanup)
       - name: Tear down
         if: always()
-        run: docker-compose -f docker-compose.yml down
+        run: docker compose -f docker-compose.yml down
