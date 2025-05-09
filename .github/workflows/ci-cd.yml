@@ -1,83 +1,116 @@
-name: CI/CD pipeline - DemoBlaze Automation Test
+#name: CI/CD pipeline - DemoBlaze Automation Test
+#
+#on:
+#  #push:
+#  #  branches:
+#  #    - '**'
+#  pull_request:
+#    branches:
+#      - master
+#
+#jobs:
+#  build:
+#    runs-on: ubuntu-latest
+#
+#    steps:
+#      - uses: actions/checkout@v4
+#
+#      - name: Set up Java JDK 23
+#        uses: actions/setup-java@v2
+#        with:
+#          java-version: '23'
+#          distribution: 'zulu'
+#
+#        # This step caches Maven dependencies to prevent downloading them every time the workflow runs.
+#      - name: Cache Maven packages
+#        uses: actions/cache@v3
+#        with:
+#            path: ~/.m2
+#            key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
+#            restore-keys: ${{ runner.os }}-m2-
+#
+#      #- name: Debug Drivers Path
+#      #  run: |
+#      #    ls -l src/test/resources/Drivers/linux/
+#
+#      #- name: Make Drivers Executable (Linux)
+#      #  if: runner.os == 'Linux'
+#      #  run: |
+#      #    chmod +x src/test/resources/Drivers/linux/chromedriver
+#      #    chmod +x src/test/resources/Drivers/linux/msedgedriver
+#
+#      - name: Install Google Chrome
+#        run: |
+#          wget -q -O google-chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+#          sudo dpkg -i google-chrome.deb || sudo apt-get install -f -y
+#
+#      - name: Install Microsoft Edge
+#        run: |
+#          sudo apt-get update
+#          sudo apt-get install -y software-properties-common
+#          curl -fsSL https://packages.microsoft.com/keys/microsoft.asc | sudo gpg --dearmor -o /usr/share/keyrings/microsoft.gpg
+#          echo "deb [arch=amd64 signed-by=/usr/share/keyrings/microsoft.gpg] https://packages.microsoft.com/repos/edge stable main" | sudo tee /etc/apt/sources.list.d/microsoft-edge.list
+#          sudo apt-get update
+#          sudo apt-get install -y microsoft-edge-stable
+#          echo 'EDGE_BIN=/usr/bin/microsoft-edge' >> $GITHUB_ENV
+#
+#      - name: Check Google Chrome version
+#        run: google-chrome --version
+#
+#      - name: Check Microsoft Edge Version
+#        run: microsoft-edge --version
+#
+#      - name: Install dependencies using Maven
+#        run: mvn clean install -DskipTests
+#
+#      - name: Run Test
+#        run: mvn test
+#
+#      # this generates Surefire report/XML reports in the target directory (path)
+#      - name: Publish Test Report (Surefire)
+#        uses: actions/upload-artifact@v4
+#        if: always()
+#        with:
+#          name: surefire-reports
+#          path: target/surefire-reports
+#
+#      # This uploads the entire logs directory as an artifact to the GitHub Actions run and upload it to the Log path.
+#      - name: Publish Logs
+#        uses: actions/upload-artifact@v4
+#        if: always()
+#        with:
+#          name: test-logs
+#          path: logs
+
+
+name: Automation Test with Docker
 
 on:
-  #push:
-  #  branches:
-  #    - '**'
+  push:
+    branches:
+      - master
   pull_request:
     branches:
       - master
 
 jobs:
-  build:
+  regression-test:
     runs-on: ubuntu-latest
 
+    # this pulls down the contents of the repository
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Set up Java JDK 23
-        uses: actions/setup-java@v2
-        with:
-          java-version: '23'
-          distribution: 'zulu'
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
 
-        # This step caches Maven dependencies to prevent downloading them every time the workflow runs.
-      - name: Cache Maven packages
-        uses: actions/cache@v3
-        with:
-            path: ~/.m2
-            key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
-            restore-keys: ${{ runner.os }}-m2-
-
-      #- name: Debug Drivers Path
-      #  run: |
-      #    ls -l src/test/resources/Drivers/linux/
-
-      #- name: Make Drivers Executable (Linux)
-      #  if: runner.os == 'Linux'
-      #  run: |
-      #    chmod +x src/test/resources/Drivers/linux/chromedriver
-      #    chmod +x src/test/resources/Drivers/linux/msedgedriver
-
-      - name: Install Google Chrome
+      # build, run and stop the test once it is done
+      - name: Run Regression test using RegressionTest-Compose
         run: |
-          wget -q -O google-chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-          sudo dpkg -i google-chrome.deb || sudo apt-get install -f -y
+          docker-compose -f docker-compose.yml up --build --abort-on-container-exit 
 
-      - name: Install Microsoft Edge
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y software-properties-common
-          curl -fsSL https://packages.microsoft.com/keys/microsoft.asc | sudo gpg --dearmor -o /usr/share/keyrings/microsoft.gpg
-          echo "deb [arch=amd64 signed-by=/usr/share/keyrings/microsoft.gpg] https://packages.microsoft.com/repos/edge stable main" | sudo tee /etc/apt/sources.list.d/microsoft-edge.list
-          sudo apt-get update
-          sudo apt-get install -y microsoft-edge-stable
-          echo 'EDGE_BIN=/usr/bin/microsoft-edge' >> $GITHUB_ENV
-
-      - name: Check Google Chrome version
-        run: google-chrome --version
-        
-      - name: Check Microsoft Edge Version
-        run: microsoft-edge --version
-
-      - name: Install dependencies using Maven
-        run: mvn clean install -DskipTests
-
-      - name: Run Test
-        run: mvn test
-
-      # this generates Surefire report/XML reports in the target directory (path)
-      - name: Publish Test Report (Surefire)
-        uses: actions/upload-artifact@v4
+      # Tear down the Docker containers (cleanup)
+      - name: Tear down
         if: always()
-        with:
-          name: surefire-reports
-          path: target/surefire-reports
-
-      # This uploads the entire logs directory as an artifact to the GitHub Actions run and upload it to the Log path.
-      - name: Publish Logs
-        uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: test-logs
-          path: logs
+        run: docker-compose -f docker-compose.yml down
